@@ -1,0 +1,48 @@
+{
+  "name": "@tb-dev/me",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@8.12.1",
+  "lint-staged": {
+    "*.{?(c|m)@(j|t)s,css,vue,md,json}": "prettier --write",
+    "*.{?(c|m)@(j|t)s,vue}": "pnpm lint"
+  },
+  "scripts": {
+    "build": "vue-tsc && vite build",
+    "deps": "pnpm exec taze -f -w -l",
+    "dev": "vite",
+    "prepare": "husky install",
+    "format": "pnpm exec prettier . --write",
+    "format-check": "pnpm exec prettier . --check",
+    "lint": "eslint . --config eslint.config.js --cache",
+    "preview": "vite preview",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.7.0",
+    "manatsu": "^0.1.12",
+    "vue": "^3.3.13"
+  },
+  "devDependencies": {
+    "@octokit/core": "^5.0.2",
+    "@tb-dev/eslint-config": "^1.4.8",
+    "@tb-dev/utility-types": "^1.0.1",
+    "@types/node": "^20.10.5",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "eslint": "^8.56.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "miho": "^2.2.3",
+    "npm-run-all2": "^6.1.1",
+    "prettier": "^3.1.1",
+    "prettier-plugin-css-order": "^2.0.1",
+    "sass": "^1.69.5",
+    "taze": "^0.13.0",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "typescript": "5.3.3",
+    "vite": "^5.0.10",
+    "vue-tsc": "^1.8.25"
+  }
+}
