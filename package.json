@@ -9,7 +9,7 @@
     "*.{?(c|m)@(j|t)s,vue}": "pnpm lint"
   },
   "scripts": {
-    "build": "vue-tsc && vite build",
+    "build": "pnpm type-check && vite build",
     "deps": "pnpm exec taze -f -w -l",
     "dev": "vite",
     "prepare": "husky install",
