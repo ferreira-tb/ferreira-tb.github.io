@@ -9,8 +9,8 @@ dependencies:
     specifier: ^10.7.0
     version: 10.7.0(vue@3.3.13)
   manatsu:
-    specifier: ^0.1.12
-    version: 0.1.12
+    specifier: ^0.1.18
+    version: 0.1.18(@vueuse/core@10.7.0)(vue@3.3.13)
   vue:
     specifier: ^3.3.13
     version: 3.3.13(typescript@5.3.3)
@@ -747,8 +747,12 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@manatsu/components@0.1.12:
-    resolution: {integrity: sha512-iUO6rmRpn5/OA9ah8rDRktl+lpzr+FTEN4hnsJQ779ezeWE1yLCBD14IJqNW3jPm5aLA2F4550bBUvjwKyI15g==}
+  /@manatsu/components@0.1.18:
+    resolution: {integrity: sha512-lOZbQKPB7NXKupkJt/XgG3C4soGY5yP4ueJsaQcXVJ65IOAabYG6i+wSjb3CnG/ISwSU4qKZ3CP9I2gIyXwJHw==}
+    dev: false
+
+  /@manatsu/composables@0.1.18:
+    resolution: {integrity: sha512-Npj7F7FVYdDOjNzz5y/9UwH/sSLsaMc63+cKWrm4dC2Y+9RShfSVXbR5b9fatDgAytaSnI6dbCF72OkGmBhLHg==}
     dev: false
 
   /@nodelib/fs.scandir@2.1.5:
@@ -3177,11 +3181,17 @@ packages:
       - supports-color
     dev: true
 
-  /manatsu@0.1.12:
-    resolution: {integrity: sha512-Z81QSFUNhEfZvTG8RyuIYswjFg9nsy5THg6xJCmulplDHGV3/jiCw2gSsGQaQb7gBSmpMnf2bFWPsZQuRoPLqQ==}
+  /manatsu@0.1.18(@vueuse/core@10.7.0)(vue@3.3.13):
+    resolution: {integrity: sha512-VQZ/oVNmy+L7chRLuvTHGeLM2Ah60ehTtQ76xQLT9EyPksWd+uMXXsI3Wwvlpmiq78rdza/B6Vxti1KvL7RLbw==}
     engines: {node: '>=18'}
+    peerDependencies:
+      '@vueuse/core': ^10.0.0
+      vue: ^3.3.0
     dependencies:
-      '@manatsu/components': 0.1.12
+      '@manatsu/components': 0.1.18
+      '@manatsu/composables': 0.1.18
+      '@vueuse/core': 10.7.0(vue@3.3.13)
+      vue: 3.3.13(typescript@5.3.3)
     dev: false
 
   /memorystream@0.3.1:
