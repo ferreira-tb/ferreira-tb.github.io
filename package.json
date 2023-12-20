@@ -21,12 +21,12 @@
   },
   "dependencies": {
     "@vueuse/core": "^10.7.0",
-    "manatsu": "^0.1.18",
+    "manatsu": "^0.1.30",
     "vue": "^3.3.13"
   },
   "devDependencies": {
     "@octokit/core": "^5.0.2",
-    "@tb-dev/eslint-config": "^1.4.8",
+    "@tb-dev/eslint-config": "^1.5.3",
     "@tb-dev/utility-types": "^1.0.1",
     "@types/node": "^20.10.5",
     "@vitejs/plugin-vue": "^4.5.2",
