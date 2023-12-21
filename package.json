@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@vueuse/core": "^10.7.0",
-    "manatsu": "^0.1.30",
+    "manatsu": "^0.1.31",
     "vue": "^3.3.13"
   },
   "devDependencies": {
