@@ -9,8 +9,8 @@ dependencies:
     specifier: ^10.7.1
     version: 10.7.1(vue@3.3.13)
   manatsu:
-    specifier: ^0.1.39
-    version: 0.1.39(@vueuse/core@10.7.1)(vue-router@4.2.5)(vue@3.3.13)
+    specifier: ^0.1.44
+    version: 0.1.44(@vueuse/core@10.7.1)(vue-router@4.2.5)(vue@3.3.13)
   vue:
     specifier: ^3.3.13
     version: 3.3.13(typescript@5.3.3)
@@ -41,8 +41,8 @@ devDependencies:
     specifier: ^15.2.0
     version: 15.2.0
   miho:
-    specifier: ^2.2.3
-    version: 2.2.3
+    specifier: ^2.2.5
+    version: 2.2.5
   npm-run-all2:
     specifier: ^6.1.1
     version: 6.1.1
@@ -747,22 +747,22 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@manatsu/components@0.1.39(@vueuse/core@10.7.1)(vue-router@4.2.5)(vue@3.3.13):
-    resolution: {integrity: sha512-AZ0al2AhL3Men7+BB3CYnOuOTGT1XLcH0D4U7IJY2MpREEkZkXaaRj8ze5rzDLFhbbWpbUeayFwpliUkD/xkow==}
+  /@manatsu/components@0.1.44(@vueuse/core@10.7.1)(vue-router@4.2.5)(vue@3.3.13):
+    resolution: {integrity: sha512-vs/8ll9FMdPxGfIvhur2rcKvHdepma63XOZDqkkNnMdYiR4jT1rVrMEsoqh+r7wCweqBNsm1fdjGRCqMwlOLnA==}
     peerDependencies:
       '@vueuse/core': ^10.7.0
       vue: ^3.3.0
       vue-router: ^4.2.0
     dependencies:
-      '@manatsu/composables': 0.1.39(@vueuse/core@10.7.1)(vue@3.3.13)
+      '@manatsu/composables': 0.1.44(@vueuse/core@10.7.1)(vue@3.3.13)
       '@tb-dev/utility-types': 1.0.1
       '@vueuse/core': 10.7.1(vue@3.3.13)
       vue: 3.3.13(typescript@5.3.3)
       vue-router: 4.2.5(vue@3.3.13)
     dev: false
 
-  /@manatsu/composables@0.1.39(@vueuse/core@10.7.1)(vue@3.3.13):
-    resolution: {integrity: sha512-1bRDH/bqob7YeG5iP+8lypcdzhu4AgYd18HEgsePkG3eict0Onf7QfcZn1K5PtUMea51dK/17ZBuM3kPSI8AoA==}
+  /@manatsu/composables@0.1.44(@vueuse/core@10.7.1)(vue@3.3.13):
+    resolution: {integrity: sha512-17+A3iiZkKN4InlNfdCGzTQbooIBmIc5aDY4YBrSl1wX0TpicBST8LeqHbC6tgCqtGwz6ET9Hm1JnQZku4ysag==}
     peerDependencies:
       '@vueuse/core': ^10.7.0
       vue: ^3.3.0
@@ -1754,7 +1754,7 @@ packages:
       chokidar: 3.5.3
       defu: 6.1.3
       dotenv: 16.3.1
-      giget: 1.1.3
+      giget: 1.2.1
       jiti: 1.21.0
       mlly: 1.4.2
       ohash: 1.1.3
@@ -1762,8 +1762,6 @@ packages:
       perfect-debounce: 1.0.0
       pkg-types: 1.0.3
       rc9: 2.1.1
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /cacache@18.0.1:
@@ -1864,6 +1862,12 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
+  /citty@0.1.5:
+    resolution: {integrity: sha512-AS7n5NSc0OQVMV9v6wt3ByujNIrne0/cTjiC2MYqhvao57VNfiuVksTSr2p17nVOhEr2KtqiAkGwHcgMC/qUuQ==}
+    dependencies:
+      consola: 3.2.3
+    dev: true
+
   /clean-regexp@1.0.0:
     resolution: {integrity: sha512-GfisEZEJvzKrmGWkvfhgzcz/BllN1USeqD2V6tg14OAOgaCD2Z/PUEuxnAZ/nPvmaHRG7a8y77p1T/IRQ4D1Hw==}
     engines: {node: '>=4'}
@@ -1943,6 +1947,11 @@ packages:
 
   /concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
+    dev: true
+
+  /consola@3.2.3:
+    resolution: {integrity: sha512-I5qxpzLv+sJhTVEoLYNcTW+bThDCPsit0vLNKShZx6rLtpilNpmmeTPaeqJb9ZE9dV3DGaeby6Vuhrw38WjeyQ==}
+    engines: {node: ^14.18.0 || >=16.10.0}
     dev: true
 
   /constantinople@4.0.1:
@@ -2588,19 +2597,18 @@ packages:
     engines: {node: '>=16'}
     dev: true
 
-  /giget@1.1.3:
-    resolution: {integrity: sha512-zHuCeqtfgqgDwvXlR84UNgnJDuUHQcNI5OqWqFxxuk2BshuKbYhJWdxBsEo4PvKqoGh23lUAIvBNpChMLv7/9Q==}
+  /giget@1.2.1:
+    resolution: {integrity: sha512-4VG22mopWtIeHwogGSy1FViXVo0YT+m6BrqZfz0JJFwbSsePsCdOzdLIIli5BtMp7Xe8f/o2OmBpQX2NBOC24g==}
     hasBin: true
     dependencies:
-      colorette: 2.0.20
+      citty: 0.1.5
+      consola: 3.2.3
       defu: 6.1.3
-      https-proxy-agent: 7.0.2
-      mri: 1.2.0
-      node-fetch-native: 1.4.1
+      node-fetch-native: 1.6.1
+      nypm: 0.3.3
+      ohash: 1.1.3
       pathe: 1.1.1
       tar: 6.2.0
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /glob-parent@5.1.2:
@@ -3224,16 +3232,16 @@ packages:
       - supports-color
     dev: true
 
-  /manatsu@0.1.39(@vueuse/core@10.7.1)(vue-router@4.2.5)(vue@3.3.13):
-    resolution: {integrity: sha512-xW0sg9YlcxaASn9CocbQ9WiqgZdGApB0TW4sD+0uXtRrF4q7J4HgItKcm/HEz8pLHg3eyvD/7ePcqsvSMRVF1A==}
+  /manatsu@0.1.44(@vueuse/core@10.7.1)(vue-router@4.2.5)(vue@3.3.13):
+    resolution: {integrity: sha512-Qhs5BcknhjJ+ZM6ExlCVHIjqMvOQHibM+gdKkuBLsBVn1U+26gUevwPHiWMsTdx26CWs0xVioCJw7d4tRheYOQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@vueuse/core': ^10.7.0
       vue: ^3.3.0
       vue-router: ^4.2.0
     dependencies:
-      '@manatsu/components': 0.1.39(@vueuse/core@10.7.1)(vue-router@4.2.5)(vue@3.3.13)
-      '@manatsu/composables': 0.1.39(@vueuse/core@10.7.1)(vue@3.3.13)
+      '@manatsu/components': 0.1.44(@vueuse/core@10.7.1)(vue-router@4.2.5)(vue@3.3.13)
+      '@manatsu/composables': 0.1.44(@vueuse/core@10.7.1)(vue@3.3.13)
       '@tb-dev/utility-types': 1.0.1
       '@vueuse/core': 10.7.1(vue@3.3.13)
       vue: 3.3.13(typescript@5.3.3)
@@ -3262,8 +3270,9 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /miho@2.2.3:
-    resolution: {integrity: sha512-wwNg07u+YU8MV2LrwgQ4VI3NS9kODp/3E1Ibrqp7HY44FacUItJA9fXaxbRAi88nGDziMyY8ya9t+mCmGJoWyw==}
+  /miho@2.2.5:
+    resolution: {integrity: sha512-fpxUpNo3TH+vB6k7ChOSPFeVWQiCEEUV9AO92D1kC70EW2RHw3l71+8EUQlmMUIXWT1lZ8Vdd/wy+2u83TW+iQ==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     hasBin: true
     dependencies:
       c12: 1.5.1
@@ -3274,8 +3283,6 @@ packages:
       prompts: 2.4.2
       semver: 7.5.4
       yargs: 17.7.2
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /mimic-fn@2.1.0:
@@ -3392,11 +3399,6 @@ packages:
       ufo: 1.3.2
     dev: true
 
-  /mri@1.2.0:
-    resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}
-    engines: {node: '>=4'}
-    dev: true
-
   /mrmime@1.0.1:
     resolution: {integrity: sha512-hzzEagAgDyoU1Q6yg5uI+AorQgdvMCur3FcKf7NhMKWsaYg+RnbTyHRa/9IlLF9rf455MOCtcqqrQQ83pPP7Uw==}
     engines: {node: '>=10'}
@@ -3428,8 +3430,8 @@ packages:
     engines: {node: '>= 0.6'}
     dev: true
 
-  /node-fetch-native@1.4.1:
-    resolution: {integrity: sha512-NsXBU0UgBxo2rQLOeWNZqS3fvflWePMECr8CoSWoSTqCqGbVVsvl9vZu1HfQicYN0g5piV9Gh8RTEvo/uP752w==}
+  /node-fetch-native@1.6.1:
+    resolution: {integrity: sha512-bW9T/uJDPAJB2YNYEpWzE54U5O3MQidXsOyTfnbKYtTtFexRvGzb1waphBN4ZwP6EcIvYYEOwW0b72BpAqydTw==}
     dev: true
 
   /node-gyp@10.0.1:
@@ -3580,6 +3582,17 @@ packages:
     resolution: {integrity: sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==}
     dependencies:
       boolbase: 1.0.0
+    dev: true
+
+  /nypm@0.3.3:
+    resolution: {integrity: sha512-FHoxtTscAE723e80d2M9cJRb4YVjL82Ra+ZV+YqC6rfNZUWahi+ZhPF+krnR+bdMvibsfHCtgKXnZf5R6kmEPA==}
+    engines: {node: ^14.16.0 || >=16.10.0}
+    hasBin: true
+    dependencies:
+      citty: 0.1.5
+      execa: 8.0.1
+      pathe: 1.1.1
+      ufo: 1.3.2
     dev: true
 
   /object-assign@4.1.1:
