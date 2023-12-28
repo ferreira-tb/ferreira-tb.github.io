@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@vueuse/core": "^10.7.1",
-    "manatsu": "^0.1.39",
+    "manatsu": "^0.1.44",
     "vue": "^3.3.13"
   },
   "devDependencies": {
@@ -33,7 +33,7 @@
     "eslint": "^8.56.0",
     "husky": "^8.0.3",
     "lint-staged": "^15.2.0",
-    "miho": "^2.2.3",
+    "miho": "^2.2.5",
     "npm-run-all2": "^6.1.1",
     "prettier": "^3.1.1",
     "prettier-plugin-css-order": "^2.0.1",
