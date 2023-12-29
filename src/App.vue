@@ -28,5 +28,6 @@ const socialLinks: IconLinkProps[] = [
   transform: translate(-50%, -50%);
   font-size: 3rem;
   user-select: none;
+  white-space: nowrap;
 }
 </style>
