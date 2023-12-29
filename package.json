@@ -21,15 +21,15 @@
   },
   "dependencies": {
     "@vueuse/core": "^10.7.1",
-    "manatsu": "^0.1.44",
-    "vue": "^3.3.13"
+    "manatsu": "^0.1.47",
+    "vue": "^3.4.0"
   },
   "devDependencies": {
     "@octokit/core": "^5.0.2",
-    "@tb-dev/eslint-config": "^1.5.4",
+    "@tb-dev/eslint-config": "^1.5.8",
     "@tb-dev/utility-types": "^1.0.1",
     "@types/node": "^20.10.5",
-    "@vitejs/plugin-vue": "^5.0.0",
+    "@vitejs/plugin-vue": "^5.0.1",
     "eslint": "^8.56.0",
     "husky": "^8.0.3",
     "lint-staged": "^15.2.0",
@@ -37,7 +37,7 @@
     "npm-run-all2": "^6.1.1",
     "prettier": "^3.1.1",
     "prettier-plugin-css-order": "^2.0.1",
-    "sass": "^1.69.5",
+    "sass": "^1.69.6",
     "taze": "^0.13.1",
     "ts-node": "^10.9.2",
     "tslib": "^2.6.2",
