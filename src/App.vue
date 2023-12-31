@@ -1,9 +1,11 @@
 <script setup lang="ts">
+import { h } from 'vue';
+import { GitHub } from '@manatsu/icons';
 import { type IconLinkProps, MNavbar, MScaffold } from 'manatsu';
 
 const socialLinks: IconLinkProps[] = [
   {
-    icon: 'github',
+    icon: () => h(GitHub),
     to: 'https://github.com/ferreira-tb'
   }
 ];
