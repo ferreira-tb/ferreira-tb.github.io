@@ -6,14 +6,14 @@ settings:
 
 dependencies:
   '@manatsu/icons':
-    specifier: ^0.1.53
-    version: 0.1.53(vue@3.4.3)
+    specifier: ^0.1.58
+    version: 0.1.58(vue@3.4.3)
   '@vueuse/core':
     specifier: ^10.7.1
     version: 10.7.1(vue@3.4.3)
   manatsu:
-    specifier: ^0.1.53
-    version: 0.1.53(@vueuse/core@10.7.1)(vue-router@4.2.5)(vue@3.4.3)
+    specifier: ^0.1.58
+    version: 0.1.58(@vueuse/core@10.7.1)(vue-router@4.2.5)(vue@3.4.3)
   vue:
     specifier: ^3.4.3
     version: 3.4.3(typescript@5.3.3)
@@ -26,8 +26,8 @@ devDependencies:
     specifier: ^1.5.8
     version: 1.5.8(eslint@8.56.0)(typescript@5.3.3)
   '@tb-dev/utility-types':
-    specifier: ^1.0.1
-    version: 1.0.1
+    specifier: ^1.0.2
+    version: 1.0.2
   '@types/node':
     specifier: ^20.10.6
     version: 20.10.6
@@ -747,33 +747,36 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@manatsu/components@0.1.53(@vueuse/core@10.7.1)(vue-router@4.2.5)(vue@3.4.3):
-    resolution: {integrity: sha512-rOK/SAVcOTcRpPTT00PntiMVozAmFF5Yc7IxkT8pRWBE5RkPgfzMquzyV1sYT6Oeb0/wSBpF63erdpTcF6fDKg==}
+  /@manatsu/components@0.1.58(@vueuse/core@10.7.1)(vue-router@4.2.5)(vue@3.4.3):
+    resolution: {integrity: sha512-fvhiKnjf55uURtqXvTPqzJ6ggDLRRC/5qRVpVfcvQvGMNEter1PMN9f3GFrrhyv6pQRfqwINpfgCFcN6+sauyg==}
     peerDependencies:
       '@vueuse/core': ^10.7.0
       vue: ^3.3.0
       vue-router: ^4.2.0
     dependencies:
-      '@manatsu/composables': 0.1.53(@vueuse/core@10.7.1)(vue@3.4.3)
-      '@manatsu/icons': 0.1.53(vue@3.4.3)
-      '@tb-dev/utility-types': 1.0.1
+      '@manatsu/composables': 0.1.58(@vueuse/core@10.7.1)(vue-router@4.2.5)(vue@3.4.3)
+      '@manatsu/icons': 0.1.58(vue@3.4.3)
+      '@tb-dev/utility-types': 1.0.2
       '@vueuse/core': 10.7.1(vue@3.4.3)
       vue: 3.4.3(typescript@5.3.3)
       vue-router: 4.2.5(vue@3.4.3)
     dev: false
 
-  /@manatsu/composables@0.1.53(@vueuse/core@10.7.1)(vue@3.4.3):
-    resolution: {integrity: sha512-293UD9xKSTim8khZQwygSSvMa2sSqJIDynQCXp1An7nacRs5rk8mGnRp7yUKkeKUwq0mUcTzX23hDZz+JBpIgg==}
+  /@manatsu/composables@0.1.58(@vueuse/core@10.7.1)(vue-router@4.2.5)(vue@3.4.3):
+    resolution: {integrity: sha512-8o6FfYE4PQduW+2zeYh/Ji8/iHX5k7TuyTvVtf7TMIwiB5fIpCFbeQFzSqEs2PHc4aCh/ersQoRI5s7yJMIjlg==}
     peerDependencies:
       '@vueuse/core': ^10.7.0
       vue: ^3.3.0
+      vue-router: ^4.2.0
     dependencies:
+      '@tb-dev/utility-types': 1.0.2
       '@vueuse/core': 10.7.1(vue@3.4.3)
       vue: 3.4.3(typescript@5.3.3)
+      vue-router: 4.2.5(vue@3.4.3)
     dev: false
 
-  /@manatsu/icons@0.1.53(vue@3.4.3):
-    resolution: {integrity: sha512-FzqLfeays19DS5Rsj69bfEY8bZwgccibWbT32/ETduT8k3+3ZNtJYcJzJdOJUO1+Ixw/i7NILCZWgQr32D424Q==}
+  /@manatsu/icons@0.1.58(vue@3.4.3):
+    resolution: {integrity: sha512-Vfep8hYNaGzWGg/IFZVe1nBVF2N+IWMPi9xhAunv353JvcWuR5HZR9Lka4DZa1JVIgj4ys3PwVl2OlJtBLkhmw==}
     peerDependencies:
       vue: ^3.3.0
     dependencies:
@@ -1150,8 +1153,8 @@ packages:
       - vitest
     dev: true
 
-  /@tb-dev/utility-types@1.0.1:
-    resolution: {integrity: sha512-jR1QZ37xkms8P/DJgtfCLCieXpCeKYFxnAN1i1muCW534/WndlljRls8xFD262u6+jN/LK9LF5laR+izANxlFA==}
+  /@tb-dev/utility-types@1.0.2:
+    resolution: {integrity: sha512-+Tol/EDF2k8+ld2voLR+cDU5GsLcdgMTN0OXq+AZXI7HNBTatbItGMppYd7gCD1eskNktc5AhlRCsoNZ97Z3yQ==}
 
   /@tsconfig/node10@1.0.9:
     resolution: {integrity: sha512-jNsYVVxU8v5g43Erja32laIDHXeoNvFEpX33OK4d6hljo3jDhCBDhx5dhCCTMWUojscpAagGiRkBKxpdl9fxqA==}
@@ -3167,17 +3170,17 @@ packages:
       - supports-color
     dev: true
 
-  /manatsu@0.1.53(@vueuse/core@10.7.1)(vue-router@4.2.5)(vue@3.4.3):
-    resolution: {integrity: sha512-7gfdS9bc4odFzySlCmIINMs+jL0kL7Fea0DrbVrDIBkdEXeOXtYKrvw8yJigi+Qpzoetp9XaIbFM7TkFYSnz9w==}
+  /manatsu@0.1.58(@vueuse/core@10.7.1)(vue-router@4.2.5)(vue@3.4.3):
+    resolution: {integrity: sha512-nT2N5TSz3I3r4+1lyXegbAcVzzXYbfbGn5+V17Lu9GlqLpkA6oRtKEZxE7+M0khA1enIG+BK4KeMjxKGU2cMhw==}
     engines: {node: '>=18'}
     peerDependencies:
       '@vueuse/core': ^10.7.0
       vue: ^3.3.0
       vue-router: ^4.2.0
     dependencies:
-      '@manatsu/components': 0.1.53(@vueuse/core@10.7.1)(vue-router@4.2.5)(vue@3.4.3)
-      '@manatsu/composables': 0.1.53(@vueuse/core@10.7.1)(vue@3.4.3)
-      '@tb-dev/utility-types': 1.0.1
+      '@manatsu/components': 0.1.58(@vueuse/core@10.7.1)(vue-router@4.2.5)(vue@3.4.3)
+      '@manatsu/composables': 0.1.58(@vueuse/core@10.7.1)(vue-router@4.2.5)(vue@3.4.3)
+      '@tb-dev/utility-types': 1.0.2
       '@vueuse/core': 10.7.1(vue@3.4.3)
       vue: 3.4.3(typescript@5.3.3)
       vue-router: 4.2.5(vue@3.4.3)
