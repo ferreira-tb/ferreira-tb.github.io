@@ -6,8 +6,8 @@
     "vivaxy.vscode-conventional-commits",
     "esbenp.prettier-vscode",
     "vue.vscode-typescript-vue-plugin",
-    "vue.volar",
     "vscode-icons-team.vscode-icons",
-    "redhat.vscode-yaml"
+    "redhat.vscode-yaml",
+    "stylelint.vscode-stylelint"
   ]
 }
