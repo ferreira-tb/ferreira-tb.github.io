@@ -1,21 +1,9 @@
 <script setup lang="ts">
-import { h } from 'vue';
-import { GitHub } from '@manatsu/icons';
-import { type IconLinkProps, MNavbar, MScaffold } from 'manatsu';
-
-const socialLinks: IconLinkProps[] = [
-  {
-    icon: () => h(GitHub),
-    to: 'https://github.com/ferreira-tb'
-  }
-];
+import { MScaffold } from 'manatsu';
 </script>
 
 <template>
-  <MScaffold navbar>
-    <template #navbar>
-      <MNavbar :social-links="socialLinks" />
-    </template>
+  <MScaffold>
     <main>
       <div class="placeholder">@ferreira-tb</div>
     </main>
