@@ -3,5 +3,9 @@ import vue from '@vitejs/plugin-vue';
 import dev from 'vite-plugin-vue-devtools';
 
 export default defineConfig({
-  plugins: [vue(), dev()]
+  plugins: [vue(), dev()],
+  build: {
+    emptyOutDir: true,
+    minify: true
+  }
 });
