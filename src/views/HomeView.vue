@@ -33,20 +33,15 @@ function openRepo(repo: Repository) {
         :subtitle="repo.description"
         variant="elevated"
       >
-        <template #header-start>
-          <img :src="`/icons/${parseLanguageName(repo.primaryLanguage.name)}.svg`" />
-        </template>
-
-        <template #footer>
+        <template #default>
           <div class="flex w-full items-center justify-between">
             <div class="flex items-center gap-2">
-              <template v-for="lang of repo.languages" :key="lang.node.name">
-                <img
-                  v-if="lang.node.name !== repo.primaryLanguage.name"
-                  :src="`/icons/${parseLanguageName(lang.node.name)}.svg`"
-                  class="h-4 w-4"
-                />
-              </template>
+              <img
+                v-for="lang of repo.languages"
+                :key="lang.node.name"
+                :src="`/icons/${parseLanguageName(lang.node.name)}.svg`"
+                class="h-4 w-4"
+              />
             </div>
             <div>
               <MButton variant="outlined" @click="openRepo(repo)">View</MButton>

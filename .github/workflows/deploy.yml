@@ -3,6 +3,8 @@ name: Deploy docs
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: '45 14 * * *'
 
 permissions:
   contents: read
