@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { computed } from 'vue';
+import IconSun from '@/components/icons/IconSun.vue';
+import IconMoon from '@/components/icons/IconMoon.vue';
 import { MNavbar, MScaffold, isDarkMode, useDarkMode } from 'manatsu';
-import IconSun from './components/icons/IconSun.vue';
-import IconMoon from './components/icons/IconMoon.vue';
 
 const darkMode = useDarkMode();
 const DarkModeIcon = computed(() => {

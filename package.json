@@ -17,6 +17,7 @@
     "format-check": "prettier . --check",
     "lint": "eslint . --config eslint.config.js --cache",
     "preview": "vite preview",
+    "repo": "cargo run --manifest-path=cli/Cargo.toml -- repo",
     "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {

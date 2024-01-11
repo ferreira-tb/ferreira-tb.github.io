@@ -30,6 +30,11 @@ jobs:
 
       - run: pnpm install
       - run: |
+          pnpm run repo
+          git add public/repos.json
+          git commit -m "chore: update `repos.json`"
+          git push
+      - run: |
           pnpm run build
           touch dist/.nojekyll
           echo "tb.dev.br" > dist/CNAME

@@ -1,7 +1,10 @@
 {
-  "include": ["*.config.ts", "src/**/*"],
+  "include": ["*.config.ts", "src/**/*", "src/**/*.vue", "index.d.ts"],
   "compilerOptions": {
     "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
     "target": "esnext",
     "lib": ["esnext", "dom"],
     "module": "esnext",
