@@ -31,7 +31,8 @@ fn main() -> Result<()> {
       }
 
       let public = env::current_dir()?.join("public");
-      fs::write(public.join("repos.json"), repos)?;
+      let path = public.join("data").join("repos.json");
+      fs::write(path, repos)?;
       Ok(())
     }
   }

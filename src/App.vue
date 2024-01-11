@@ -16,6 +16,11 @@ const DarkModeIcon = computed(() => {
   <MScaffold>
     <template #header>
       <MNavbar title="ferreira-tb" :title-link="{ name: 'home' }">
+        <template #logo>
+          <div id="logo" class="size-8 overflow-hidden">
+            <img src="/katsuo.png" class="inline w-full" />
+          </div>
+        </template>
         <template #end>
           <component :is="DarkModeIcon" class="h-6 w-6" @click="$mana.toggleDarkMode()" />
         </template>
@@ -34,3 +39,9 @@ const DarkModeIcon = computed(() => {
     </RouterView>
   </MScaffold>
 </template>
+
+<style scoped>
+#logo {
+  border-radius: 50%;
+}
+</style>

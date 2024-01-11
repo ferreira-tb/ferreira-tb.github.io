@@ -3,7 +3,7 @@ import { MButton, MCard } from 'manatsu';
 import { useAsyncState } from '@vueuse/core';
 
 const { state: repos } = useAsyncState<Repository[]>(async () => {
-  const response = await fetch('/repos.json');
+  const response = await fetch('/data/repos.json');
   const repositories: Repository[] = await response.json();
   for (const repo of repositories) {
     repo.languages.sort((a, b) => b.size - a.size);
