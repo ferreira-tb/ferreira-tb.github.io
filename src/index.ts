@@ -6,7 +6,7 @@ import App from './App.vue';
 import { router } from './router';
 
 const app = createApp(App);
-const manatsu = createManatsu();
+const manatsu = createManatsu({ darkMode: true });
 
 app.use(router);
 app.use(manatsu);
