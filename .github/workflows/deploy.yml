@@ -29,11 +29,7 @@ jobs:
         uses: actions/configure-pages@v4
 
       - run: pnpm install
-      - run: |
-          pnpm run repo
-          git add public/repos.json
-          git commit -m "chore: update `repos.json`"
-          git push
+      - run: pnpm run repo
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: |
