@@ -38,7 +38,7 @@ function openRepo(repo: Repository) {
         </template>
 
         <template #footer>
-          <div class="flex w-full justify-between">
+          <div class="flex w-full items-center justify-between">
             <div class="flex items-center gap-2">
               <template v-for="lang of repo.languages" :key="lang.node.name">
                 <img
