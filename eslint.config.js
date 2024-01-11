@@ -5,18 +5,7 @@ export default config({
   project: ['tsconfig.json'],
   overrides: {
     vue: {
-      'vue/block-lang': [
-        'error',
-        {
-          script: {
-            lang: 'ts'
-          },
-          style: {
-            lang: 'scss',
-            allowNoLang: false
-          }
-        }
-      ]
+      'vue/block-lang': ['error', { script: { lang: 'ts' } }]
     }
   }
 });

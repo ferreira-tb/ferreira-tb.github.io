@@ -1,35 +1,36 @@
 <script setup lang="ts">
-import { h } from 'vue';
-import { GitHub } from '@manatsu/icons';
-import { type IconLinkProps, MNavbar, MScaffold } from 'manatsu';
+import { computed } from 'vue';
+import IconSun from '@/components/icons/IconSun.vue';
+import IconMoon from '@/components/icons/IconMoon.vue';
+import { MNavbar, MScaffold, isDarkMode, useDarkMode } from 'manatsu';
 
-const socialLinks: IconLinkProps[] = [
-  {
-    icon: () => h(GitHub),
-    to: 'https://github.com/ferreira-tb'
-  }
-];
+const darkMode = useDarkMode();
+const DarkModeIcon = computed(() => {
+  const isDark = typeof darkMode.value === 'boolean' ? darkMode.value : isDarkMode();
+  if (isDark) return IconSun;
+  return IconMoon;
+});
 </script>
 
 <template>
-  <MScaffold navbar>
-    <template #navbar>
-      <MNavbar :social-links="socialLinks" />
+  <MScaffold>
+    <template #header>
+      <MNavbar title="ferreira-tb" :title-link="{ name: 'home' }">
+        <template #end>
+          <component :is="DarkModeIcon" class="h-6 w-6" @click="$mana.toggleDarkMode()" />
+        </template>
+      </MNavbar>
     </template>
-    <main>
-      <div class="placeholder">@ferreira-tb</div>
-    </main>
+
+    <RouterView #default="{ Component }">
+      <template v-if="Component">
+        <Transition mode="out-in">
+          <Suspense>
+            <component :is="Component" />
+            <template #fallback>Loading...</template>
+          </Suspense>
+        </Transition>
+      </template>
+    </RouterView>
   </MScaffold>
 </template>
-
-<style scoped lang="scss">
-.placeholder {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3rem;
-  user-select: none;
-  white-space: nowrap;
-}
-</style>

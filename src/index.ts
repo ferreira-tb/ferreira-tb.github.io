@@ -1,10 +1,14 @@
 import 'manatsu/style';
+import '@/assets/style.css';
+import App from '@/App.vue';
 import { createApp } from 'vue';
+import { router } from '@/router';
 import { createManatsu } from 'manatsu';
-import App from './App.vue';
 
 const app = createApp(App);
-const manatsu = createManatsu();
+const manatsu = createManatsu({ darkMode: true });
 
+app.use(router);
 app.use(manatsu);
+
 app.mount('#app');

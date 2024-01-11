@@ -1,0 +1,29 @@
+[package]
+name = "cli"
+version = "0.1.1"
+
+[package.homepage]
+workspace = true
+
+[package.repository]
+workspace = true
+
+[package.authors]
+workspace = true
+
+[package.license]
+workspace = true
+
+[package.edition]
+workspace = true
+
+[package.readme]
+workspace = true
+
+[dependencies]
+anyhow = "1.0"
+miho = "3"
+
+[dependencies.clap]
+version = "4"
+features = ["derive"]
