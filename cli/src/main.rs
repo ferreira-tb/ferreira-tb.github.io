@@ -38,7 +38,7 @@ fn main() -> Result<()> {
 }
 
 fn get_repo_info(name: &str) -> Result<String> {
-  let fields = "name,description,url,primaryLanguage,updatedAt";
+  let fields = "name,description,url,languages,primaryLanguage,updatedAt";
   let args = vec!["repo", "view", name, "--json", fields];
   let output = gh!(args)?;
 

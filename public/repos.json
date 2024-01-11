@@ -1,6 +1,12 @@
 [
   {
     "description": "Vue component library for Tauri apps",
+    "languages": [
+      { "size": 26687, "node": { "name": "TypeScript" } },
+      { "size": 18393, "node": { "name": "Vue" } },
+      { "size": 24988, "node": { "name": "Rust" } },
+      { "size": 7903, "node": { "name": "SCSS" } }
+    ],
     "name": "manatsu",
     "primaryLanguage": { "name": "TypeScript" },
     "updatedAt": "2024-01-11T01:01:44Z",
@@ -8,6 +14,7 @@
   },
   {
     "description": "Repository management tools",
+    "languages": [{ "size": 28701, "node": { "name": "Rust" } }],
     "name": "miho",
     "primaryLanguage": { "name": "Rust" },
     "updatedAt": "2024-01-03T06:47:22Z",
