@@ -1,23 +1,23 @@
 [
   {
+    "name": "manatsu",
     "description": "Vue component library for Tauri apps",
+    "updated_at": "2024-01-11T01:01:44Z",
+    "url": "https://github.com/manatsujs/manatsu",
     "languages": [
       { "size": 26687, "node": { "name": "TypeScript" } },
       { "size": 18393, "node": { "name": "Vue" } },
       { "size": 24988, "node": { "name": "Rust" } },
       { "size": 7903, "node": { "name": "SCSS" } }
     ],
-    "name": "manatsu",
-    "primaryLanguage": { "name": "TypeScript" },
-    "updatedAt": "2024-01-11T01:01:44Z",
-    "url": "https://github.com/manatsujs/manatsu"
+    "primary_language": { "name": "TypeScript" }
   },
   {
-    "description": "Repository management tools",
-    "languages": [{ "size": 28701, "node": { "name": "Rust" } }],
     "name": "miho",
-    "primaryLanguage": { "name": "Rust" },
-    "updatedAt": "2024-01-03T06:47:22Z",
-    "url": "https://github.com/ferreira-tb/miho"
+    "description": "Repository management tools",
+    "updated_at": "2024-01-03T06:47:22Z",
+    "url": "https://github.com/ferreira-tb/miho",
+    "languages": [{ "size": 28701, "node": { "name": "Rust" } }],
+    "primary_language": { "name": "Rust" }
   }
 ]
