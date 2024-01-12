@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Icon from '@/components/Icon.vue';
 import { MNavbar, MScaffold } from 'manatsu';
 </script>
 
@@ -13,7 +14,7 @@ import { MNavbar, MScaffold } from 'manatsu';
         </template>
         <template #end>
           <a href="https://github.com/ferreira-tb" target="_blank" rel="noopener noreferrer">
-            <img src="/icons/github.svg" class="size-6" />
+            <Icon name="github" size="1.5rem" />
           </a>
         </template>
       </MNavbar>

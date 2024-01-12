@@ -6,7 +6,7 @@ import { router } from '@/router';
 import { createManatsu } from 'manatsu';
 
 const app = createApp(App);
-const manatsu = createManatsu({ darkMode: false });
+const manatsu = createManatsu({ darkMode: true });
 
 app.use(router);
 app.use(manatsu);

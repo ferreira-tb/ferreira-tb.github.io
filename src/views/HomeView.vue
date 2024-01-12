@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { MButton, MCard } from 'manatsu';
+import Icon from '@/components/Icon.vue';
 import { useAsyncState } from '@vueuse/core';
 
 const { state: repos } = useAsyncState<Repository[]>(async () => {
@@ -24,37 +25,35 @@ function openRepo(repo: Repository) {
 </script>
 
 <template>
-  <main>
-    <div class="repo-grid">
-      <MCard
-        v-for="repo of repos"
-        :key="repo.name"
-        :title="repo.name"
-        :subtitle="repo.description"
-        variant="elevated"
-      >
-        <template #default>
-          <div class="flex w-full items-center justify-between">
-            <div class="flex items-center gap-2">
-              <img
-                v-for="lang of repo.languages"
-                :key="lang.node.name"
-                :src="`/icons/${parseLanguageName(lang.node.name)}.svg`"
-                class="h-4 w-4"
-              />
-            </div>
-            <div>
-              <MButton variant="outlined" @click="openRepo(repo)">View</MButton>
-            </div>
+  <div id="repo-grid">
+    <MCard
+      v-for="repo of repos"
+      :key="repo.name"
+      :title="repo.name"
+      :subtitle="repo.description"
+      variant="filled"
+    >
+      <template #default>
+        <div class="flex w-full items-center justify-between">
+          <div class="flex items-center gap-2">
+            <Icon
+              v-for="lang of repo.languages"
+              :key="lang.node.name"
+              :name="parseLanguageName(lang.node.name)"
+              height="1rem"
+            />
           </div>
-        </template>
-      </MCard>
-    </div>
-  </main>
+          <div>
+            <MButton variant="outlined" @click="openRepo(repo)">View</MButton>
+          </div>
+        </div>
+      </template>
+    </MCard>
+  </div>
 </template>
 
 <style scoped>
-.repo-grid {
+#repo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1rem;
