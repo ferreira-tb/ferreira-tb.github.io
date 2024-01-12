@@ -11,6 +11,11 @@ import { MNavbar, MScaffold } from 'manatsu';
             <img src="/katsuo.png" class="inline w-full" />
           </div>
         </template>
+        <template #end>
+          <a href="https://github.com/ferreira-tb" target="_blank" rel="noopener noreferrer">
+            <img src="/icons/github.svg" class="size-6" />
+          </a>
+        </template>
       </MNavbar>
     </template>
 
