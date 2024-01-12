@@ -13,7 +13,7 @@ const { state: repos } = useAsyncState<Repository[]>(async () => {
 }, []);
 
 function parseLanguageName(name: string) {
-  let lang = name.toLowerCase();
+  let lang = name.trim().toLowerCase();
   if (lang === 'scss') lang = 'sass';
   return lang;
 }
