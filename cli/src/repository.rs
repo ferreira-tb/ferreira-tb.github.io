@@ -4,7 +4,11 @@ use serde::{Deserialize, Serialize};
 use std::env;
 use std::fs;
 
-const REPOSITORIES: [&str; 2] = ["manatsujs/manatsu", "ferreira-tb/miho"];
+const REPOSITORIES: [&str; 3] = [
+  "manatsujs/manatsu",
+  "ferreira-tb/miho",
+  "ferreira-tb/gh-label",
+];
 
 #[derive(Deserialize, Serialize)]
 #[serde(rename_all(serialize = "snake_case", deserialize = "camelCase"))]
