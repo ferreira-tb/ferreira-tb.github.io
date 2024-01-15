@@ -9,7 +9,7 @@ import { MNavbar, MScaffold } from 'manatsu';
       <MNavbar title="ferreira-tb" :title-link="{ name: 'home' }">
         <template #logo>
           <div id="logo" class="size-8 overflow-hidden">
-            <img src="/katsuo.png" class="inline w-full" />
+            <img src="/katsuo.png" alt="logo" decoding="async" class="inline w-full" />
           </div>
         </template>
         <template #end>
@@ -25,7 +25,15 @@ import { MNavbar, MScaffold } from 'manatsu';
         <Transition mode="out-in">
           <Suspense>
             <component :is="Component" />
-            <template #fallback>Loading...</template>
+            <template #fallback>
+              <img
+                src="/icons/loading.svg"
+                alt="loading"
+                decoding="async"
+                loading="lazy"
+                class="absolute left-2/4 top-2/4 -translate-y-2/4 translate-x-2/4"
+              />
+            </template>
           </Suspense>
         </Transition>
       </template>
