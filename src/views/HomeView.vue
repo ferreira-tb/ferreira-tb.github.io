@@ -3,7 +3,7 @@ import { MButton, MCard } from 'manatsu';
 import Icon from '@/components/Icon.vue';
 import { useAsyncState } from '@vueuse/core';
 
-const { state: repos } = useAsyncState<Repository[]>(async () => {
+const { state: repos, isLoading } = useAsyncState<Repository[]>(async () => {
   const response = await fetch('/data/repos.json');
   const repositories: Repository[] = await response.json();
   for (const repo of repositories) {
@@ -25,7 +25,7 @@ function openRepo(repo: Repository) {
 </script>
 
 <template>
-  <div id="repo-grid">
+  <div v-if="!isLoading" id="repo-grid">
     <MCard
       v-for="repo of repos"
       :key="repo.name"
@@ -50,6 +50,15 @@ function openRepo(repo: Repository) {
       </template>
     </MCard>
   </div>
+
+  <img
+    v-else
+    src="/icons/loading.svg"
+    alt="loading"
+    decoding="async"
+    loading="lazy"
+    class="absolute left-2/4 top-2/4 -translate-y-2/4 translate-x-2/4"
+  />
 </template>
 
 <style scoped>

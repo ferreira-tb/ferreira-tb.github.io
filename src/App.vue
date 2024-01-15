@@ -23,18 +23,7 @@ import { MNavbar, MScaffold } from 'manatsu';
     <RouterView #default="{ Component }">
       <template v-if="Component">
         <Transition mode="out-in">
-          <Suspense>
-            <component :is="Component" />
-            <template #fallback>
-              <img
-                src="/icons/loading.svg"
-                alt="loading"
-                decoding="async"
-                loading="lazy"
-                class="absolute left-2/4 top-2/4 -translate-y-2/4 translate-x-2/4"
-              />
-            </template>
-          </Suspense>
+          <component :is="Component" />
         </Transition>
       </template>
     </RouterView>
