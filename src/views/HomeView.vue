@@ -31,7 +31,7 @@ function openRepo(repo: Repository) {
       :key="repo.name"
       :title="repo.name"
       :subtitle="repo.description"
-      variant="filled"
+      variant="elevated"
     >
       <template #default>
         <div class="flex w-full items-center justify-between">

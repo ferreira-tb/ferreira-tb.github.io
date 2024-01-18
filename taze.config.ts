@@ -5,7 +5,6 @@ export default defineConfig({
   write: true,
   includeLocked: true,
   packageMode: {
-    vue: 'ignore',
-    '@vitejs/plugin-vue': 'ignore'
+    manatsu: 'major'
   }
 });
