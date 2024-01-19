@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import Icon from '@/components/Icon.vue';
-import { MNavbar, MScaffold } from 'manatsu';
+import { MScaffold, MTopAppbar } from 'manatsu';
 </script>
 
 <template>
   <MScaffold>
-    <template #header>
-      <MNavbar title="ferreira-tb" :title-link="{ name: 'home' }">
+    <template #top-bar>
+      <MTopAppbar title="ferreira-tb" :title-link="{ name: 'home' }">
         <template #logo>
           <div id="logo" class="size-8 overflow-hidden">
             <img src="/katsuo.png" alt="logo" decoding="async" class="inline w-full" />
@@ -17,7 +17,7 @@ import { MNavbar, MScaffold } from 'manatsu';
             <Icon name="github" size="1.5rem" />
           </a>
         </template>
-      </MNavbar>
+      </MTopAppbar>
     </template>
 
     <RouterView #default="{ Component }">
