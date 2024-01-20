@@ -1,13 +1,13 @@
 use anyhow::{bail, Result};
-use miho::gh;
 use serde::{Deserialize, Serialize};
 use std::env;
 use std::fs;
 
-const REPOSITORIES: [&str; 3] = [
+const REPOSITORIES: [&str; 4] = [
   "manatsujs/manatsu",
   "ferreira-tb/miho",
   "ferreira-tb/gh-label",
+  "ferreira-tb/vndb-query",
 ];
 
 #[derive(Deserialize, Serialize)]
@@ -32,6 +32,26 @@ struct RepositoryInfo {
   url: String,
   languages: Vec<Language>,
   primary_language: Option<LanguageNode>,
+}
+
+macro_rules! gh {
+  ($( $arg:literal ),*) => {{
+    let mut args: Vec<&str> = Vec::new();
+    $( args.push($arg); )*
+
+    std::process::Command::new("gh")
+      .args(args)
+      .stderr(std::process::Stdio::piped())
+      .stdout(std::process::Stdio::piped())
+      .output()
+  }};
+  ($args:expr) => {{
+    std::process::Command::new("gh")
+      .args($args)
+      .stderr(std::process::Stdio::piped())
+      .stdout(std::process::Stdio::piped())
+      .output()
+  }};
 }
 
 fn get_info(name: &str) -> Result<String> {
