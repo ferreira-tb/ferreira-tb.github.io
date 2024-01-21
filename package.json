@@ -1,6 +1,6 @@
 {
   "name": "@tb-dev/me",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "private": true,
   "packageManager": "pnpm@8.14.1",
@@ -22,15 +22,15 @@
   },
   "dependencies": {
     "@vueuse/core": "^10.7.2",
-    "manatsu": "^0.3.7",
-    "vue": "~3.4.15",
+    "manatsu": "^0.3.8",
+    "vue": "^3.4.15",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
     "@tb-dev/eslint-config": "^1.6.5",
     "@tb-dev/utility-types": "^1.1.0",
     "@types/node": "^20.11.5",
-    "@vitejs/plugin-vue": "~5.0.3",
+    "@vitejs/plugin-vue": "^5.0.3",
     "autoprefixer": "^10.4.17",
     "eslint": "^8.56.0",
     "husky": "^8.0.3",
