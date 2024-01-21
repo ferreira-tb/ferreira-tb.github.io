@@ -22,13 +22,13 @@
   },
   "dependencies": {
     "@vueuse/core": "^10.7.2",
-    "manatsu": "^0.3.6",
+    "manatsu": "^0.3.7",
     "vue": "~3.4.15",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
     "@tb-dev/eslint-config": "^1.6.5",
-    "@tb-dev/utility-types": "^1.0.10",
+    "@tb-dev/utility-types": "^1.1.0",
     "@types/node": "^20.11.5",
     "@vitejs/plugin-vue": "~5.0.3",
     "autoprefixer": "^10.4.17",
