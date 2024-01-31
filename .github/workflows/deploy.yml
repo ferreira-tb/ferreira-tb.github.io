@@ -21,6 +21,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
       - uses: pnpm/action-setup@v2
       - uses: actions/setup-node@v4
         with:
@@ -31,7 +34,7 @@ jobs:
         uses: actions/configure-pages@v4
 
       - run: pnpm install
-      - run: pnpm run repo
+      - run: py scripts/repo.py
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: |

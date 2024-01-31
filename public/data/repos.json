@@ -1,23 +1,104 @@
 [
   {
-    "name": "manatsu",
     "description": "Vue component library for Tauri apps",
-    "updated_at": "2024-01-11T01:01:44Z",
-    "url": "https://github.com/manatsujs/manatsu",
     "languages": [
-      { "size": 26687, "node": { "name": "TypeScript" } },
-      { "size": 18393, "node": { "name": "Vue" } },
-      { "size": 24988, "node": { "name": "Rust" } },
-      { "size": 7903, "node": { "name": "SCSS" } }
+      {
+        "size": 29344,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 26374,
+        "node": {
+          "name": "Vue"
+        }
+      },
+      {
+        "size": 42643,
+        "node": {
+          "name": "Rust"
+        }
+      },
+      {
+        "size": 6771,
+        "node": {
+          "name": "SCSS"
+        }
+      }
     ],
-    "primary_language": { "name": "TypeScript" }
+    "name": "manatsu",
+    "primaryLanguage": {
+      "name": "Rust"
+    },
+    "updatedAt": "2024-01-18T22:11:09Z",
+    "url": "https://github.com/tsukilabs/manatsu",
+    "extraLanguages": []
   },
   {
-    "name": "miho",
     "description": "Repository management tools",
-    "updated_at": "2024-01-03T06:47:22Z",
+    "languages": [
+      {
+        "size": 31664,
+        "node": {
+          "name": "Rust"
+        }
+      }
+    ],
+    "name": "miho",
+    "primaryLanguage": {
+      "name": "Rust"
+    },
+    "updatedAt": "2024-01-03T06:47:22Z",
     "url": "https://github.com/ferreira-tb/miho",
-    "languages": [{ "size": 28701, "node": { "name": "Rust" } }],
-    "primary_language": { "name": "Rust" }
+    "extraLanguages": []
+  },
+  {
+    "description": "Simple GUI for editing GitHub labels",
+    "languages": [
+      {
+        "size": 4755,
+        "node": {
+          "name": "Rust"
+        }
+      },
+      {
+        "size": 6647,
+        "node": {
+          "name": "TypeScript"
+        }
+      },
+      {
+        "size": 15266,
+        "node": {
+          "name": "Svelte"
+        }
+      }
+    ],
+    "name": "gh-label",
+    "primaryLanguage": {
+      "name": "Svelte"
+    },
+    "updatedAt": "2024-01-14T18:48:59Z",
+    "url": "https://github.com/ferreira-tb/gh-label",
+    "extraLanguages": []
+  },
+  {
+    "description": "Custom query builder for VNDB",
+    "languages": [
+      {
+        "size": 53655,
+        "node": {
+          "name": "TypeScript"
+        }
+      }
+    ],
+    "name": "vndb-query",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    },
+    "updatedAt": "2024-01-20T14:36:25Z",
+    "url": "https://github.com/ferreira-tb/vndb-query",
+    "extraLanguages": ["flutter"]
   }
 ]

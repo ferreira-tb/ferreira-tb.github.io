@@ -3,7 +3,7 @@
   "version": "0.1.4",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@8.14.3",
+  "packageManager": "pnpm@8.15.1",
   "lint-staged": {
     "*.{?(c|m)@(j|t)s,css,vue,md,json}": "prettier --write",
     "*.{?(c|m)@(j|t)s,vue}": "pnpm lint"
@@ -17,7 +17,6 @@
     "format-check": "prettier . --check",
     "lint": "eslint . --config eslint.config.js --cache",
     "preview": "vite preview",
-    "repo": "cargo run --manifest-path=cli/Cargo.toml -- repo",
     "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
@@ -27,9 +26,9 @@
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
-    "@tb-dev/eslint-config": "^1.6.7",
+    "@tb-dev/eslint-config": "^1.6.9",
     "@tb-dev/utility-types": "^1.1.0",
-    "@types/node": "^20.11.6",
+    "@types/node": "^20.11.13",
     "@vitejs/plugin-vue": "^5.0.3",
     "autoprefixer": "^10.4.17",
     "eslint": "^8.56.0",
@@ -44,7 +43,7 @@
     "tslib": "^2.6.2",
     "typescript": "5.3.3",
     "vite": "^5.0.12",
-    "vite-plugin-vue-devtools": "7.0.12",
+    "vite-plugin-vue-devtools": "7.0.13",
     "vue-tsc": "^1.8.27"
   }
 }

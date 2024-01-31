@@ -42,6 +42,12 @@ function openRepo(repo: Repository) {
               :name="parseLanguageName(lang.node.name)"
               height="1rem"
             />
+            <Icon
+              v-for="lang of repo.extraLanguages"
+              :key="lang"
+              :name="parseLanguageName(lang)"
+              height="1rem"
+            />
           </div>
           <div>
             <MButton variant="outlined" @click="openRepo(repo)">View</MButton>

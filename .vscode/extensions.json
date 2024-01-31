@@ -1,14 +1,19 @@
 {
   "recommendations": [
+    "vivaxy.vscode-conventional-commits",
+    "dbaeumer.vscode-eslint",
+    "donjayamanne.githistory",
     "github.vscode-github-actions",
     "github.vscode-pull-request-github",
-    "dbaeumer.vscode-eslint",
-    "vivaxy.vscode-conventional-commits",
     "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
     "vue.vscode-typescript-vue-plugin",
     "vscode-icons-team.vscode-icons",
+    "vue.volar",
     "redhat.vscode-yaml",
-    "bradlc.vscode-tailwindcss",
-    "vue.volar"
+    "ms-python.vscode-pylance",
+    "ms-python.python",
+    "ms-python.black-formatter",
+    "ms-python.isort"
   ]
 }

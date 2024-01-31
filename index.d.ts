@@ -9,6 +9,7 @@ interface Language {
 
 interface Repository {
   description: string;
+  extraLanguages?: string[];
   languages: Language[];
   name: string;
   primaryLanguage?: LanguageNode;
