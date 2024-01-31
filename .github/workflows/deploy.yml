@@ -34,7 +34,7 @@ jobs:
         uses: actions/configure-pages@v4
 
       - run: pnpm install
-      - run: py scripts/repo.py
+      - run: python scripts/repo.py
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: |
