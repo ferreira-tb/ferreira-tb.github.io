@@ -25,7 +25,7 @@ def get_info(name: str, extra_langs: list[str] = []):
 
 
 repos = [
-    get_info("manatsujs/manatsu"),
+    get_info("tsukilabs/manatsu"),
     get_info("ferreira-tb/miho"),
     get_info("ferreira-tb/gh-label"),
     get_info("ferreira-tb/vndb-query"),
