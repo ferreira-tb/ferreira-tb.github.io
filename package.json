@@ -1,6 +1,6 @@
 {
   "name": "@tb-dev/me",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "type": "module",
   "private": true,
   "packageManager": "pnpm@8.15.1",
@@ -25,7 +25,7 @@
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
-    "@tb-dev/eslint-config": "^2.0.0",
+    "@tb-dev/eslint-config": "^2.0.1",
     "@tb-dev/utility-types": "^1.1.4",
     "@types/node": "^20.11.17",
     "@vitejs/plugin-vue": "^5.0.4",
