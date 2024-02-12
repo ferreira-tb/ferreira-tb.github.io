@@ -20,8 +20,8 @@ dependencies:
 
 devDependencies:
   '@tb-dev/eslint-config':
-    specifier: ^1.8.2
-    version: 1.8.2(eslint@8.56.0)(typescript@5.3.3)
+    specifier: ^2.0.0
+    version: 2.0.0(eslint@8.56.0)(typescript@5.3.3)
   '@tb-dev/utility-types':
     specifier: ^1.1.4
     version: 1.1.4
@@ -668,7 +668,7 @@ packages:
       debug: 4.3.4
       espree: 9.6.1
       globals: 13.24.0
-      ignore: 5.3.0
+      ignore: 5.3.1
       import-fresh: 3.3.0
       js-yaml: 4.1.0
       minimatch: 3.1.2
@@ -1110,8 +1110,9 @@ packages:
     engines: {node: '>= 14.6.0', npm: '>= 6.6.0', yarn: '>= 1.19.1'}
     dev: false
 
-  /@tb-dev/eslint-config@1.8.2(eslint@8.56.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-fWFjuiQm9Y0+NRUqLkQFY35febN3X4efyhPDQHcWQO+dYb3/LkJNVJzsH3aLO3zHrDyxHqz0LSXGEj/plFqP6A==}
+  /@tb-dev/eslint-config@2.0.0(eslint@8.56.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-iFbLbc4wb1SRLKYHXswLJQv7qiAHmtgJhZLXwpeO6c8lRwVewUgF/jgQ1GHYsFENcqBaPKnSUkoCiECtYxvprw==}
+    engines: {node: '>=20'}
     peerDependencies:
       eslint: ^8.0.0
     dependencies:
@@ -1123,7 +1124,7 @@ packages:
       eslint-plugin-unicorn: 51.0.1(eslint@8.56.0)
       eslint-plugin-vitest: 0.3.22(@typescript-eslint/eslint-plugin@6.21.0)(eslint@8.56.0)(typescript@5.3.3)
       eslint-plugin-vue: 9.21.1(eslint@8.56.0)
-      globals: 13.24.0
+      globals: 14.0.0
       vue-eslint-parser: 9.4.2(eslint@8.56.0)
     transitivePeerDependencies:
       - astro-eslint-parser
@@ -2551,6 +2552,11 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       type-fest: 0.20.2
+    dev: true
+
+  /globals@14.0.0:
+    resolution: {integrity: sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==}
+    engines: {node: '>=18'}
     dev: true
 
   /globby@11.1.0:
