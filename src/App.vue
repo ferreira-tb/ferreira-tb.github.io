@@ -5,7 +5,7 @@ import { MScaffold, MTopAppbar } from 'manatsu';
 
 <template>
   <MScaffold default-border="none">
-    <template #top-bar>
+    <template #top>
       <MTopAppbar title="ferreira-tb" :title-link="{ name: 'home' }">
         <template #logo>
           <div id="logo" class="size-8 overflow-hidden">
