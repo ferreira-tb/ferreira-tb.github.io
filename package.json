@@ -20,12 +20,12 @@
   },
   "dependencies": {
     "@vueuse/core": "^10.9.0",
-    "manatsu": "^0.4.15",
+    "manatsu": "^0.4.16",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "@tb-dev/eslint-config": "^2.1.2",
+    "@tb-dev/eslint-config": "^2.2.0",
     "@tb-dev/utility-types": "^1.2.0",
     "@types/node": "^20.11.24",
     "@vitejs/plugin-vue": "^5.0.4",
@@ -42,6 +42,6 @@
     "typescript": "5.3.3",
     "vite": "^5.1.5",
     "vite-plugin-vue-devtools": "^7.0.16",
-    "vue-tsc": "^2.0.4"
+    "vue-tsc": "^2.0.5"
   }
 }
