@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@vueuse/core": "^10.9.0",
-    "manatsu": "^0.4.22",
+    "manatsu": "^0.4.24",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
@@ -42,6 +42,6 @@
     "typescript": "5.4.2",
     "vite": "^5.1.5",
     "vite-plugin-vue-devtools": "^7.0.16",
-    "vue-tsc": "^2.0.5"
+    "vue-tsc": "^2.0.6"
   }
 }
