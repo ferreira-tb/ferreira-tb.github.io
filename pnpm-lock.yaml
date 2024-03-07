@@ -20,8 +20,8 @@ dependencies:
 
 devDependencies:
   '@tb-dev/eslint-config':
-    specifier: ^2.2.0
-    version: 2.2.0(eslint@8.57.0)(typescript@5.4.2)
+    specifier: ^3.0.0
+    version: 3.0.0(eslint@8.57.0)(typescript@5.4.2)
   '@tb-dev/utility-types':
     specifier: ^1.2.0
     version: 1.2.0
@@ -934,8 +934,8 @@ packages:
     engines: {node: '>= 14.6.0', npm: '>= 6.6.0', yarn: '>= 1.19.1'}
     dev: false
 
-  /@tb-dev/eslint-config@2.2.0(eslint@8.57.0)(typescript@5.4.2):
-    resolution: {integrity: sha512-G0/ftDCIihGYpf0kLs+pniNDVIOkeZzvRSvDIcnIBiLbrqvqjM1ws/fy3jbeyIf0VXom5GvcVCTPS3jyv+nGHQ==}
+  /@tb-dev/eslint-config@3.0.0(eslint@8.57.0)(typescript@5.4.2):
+    resolution: {integrity: sha512-4PU2dFsiTa1GqFSDowJ3/wz8m1ZSt7CMX5h7MoebQJX9P3ABGSvatQF6IYDL5asg9JvUB9X8vUfVasbDvsa0QQ==}
     engines: {node: '>=20'}
     peerDependencies:
       eslint: ^8.57.0
