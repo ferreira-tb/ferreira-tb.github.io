@@ -33,7 +33,7 @@ function view(repo: Repository) {
 
 <template>
   <div v-if="!isLoading" id="repository-grid">
-    <MCard
+    <m-card
       v-for="repo of repos"
       :key="repo.name"
       :title="repo.name"
@@ -43,13 +43,13 @@ function view(repo: Repository) {
       <template #default>
         <div class="flex w-full items-center justify-between">
           <div class="flex items-center gap-2">
-            <Icon
+            <icon
               v-for="lang of repo.languages"
               :key="lang.node.name"
               :name="parse(lang.node.name)"
               height="1rem"
             />
-            <Icon
+            <icon
               v-for="lang of repo.extraLanguages"
               :key="lang"
               :name="parse(lang)"
@@ -57,11 +57,11 @@ function view(repo: Repository) {
             />
           </div>
           <div>
-            <MButton variant="outlined" @click="view(repo)">View</MButton>
+            <m-button variant="outlined" @click="view(repo)">View</m-button>
           </div>
         </div>
       </template>
-    </MCard>
+    </m-card>
   </div>
 
   <img

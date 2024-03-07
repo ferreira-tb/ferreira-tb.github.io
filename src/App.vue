@@ -4,9 +4,9 @@ import { MScaffold, MTopAppbar } from 'manatsu';
 </script>
 
 <template>
-  <MScaffold default-border="none">
+  <m-scaffold default-border="none">
     <template #top>
-      <MTopAppbar title="ferreira-tb" :title-link="{ name: 'home' }">
+      <m-top-appbar title="ferreira-tb" :title-link="{ name: 'home' }">
         <template #logo>
           <div id="logo" class="size-8 overflow-hidden">
             <img src="/katsuo.png" alt="logo" decoding="async" class="inline w-full" />
@@ -14,20 +14,20 @@ import { MScaffold, MTopAppbar } from 'manatsu';
         </template>
         <template #end>
           <a href="https://github.com/ferreira-tb" target="_blank" rel="noopener noreferrer">
-            <Icon name="github" size="1.5rem" />
+            <icon name="github" size="1.5rem" />
           </a>
         </template>
-      </MTopAppbar>
+      </m-top-appbar>
     </template>
 
-    <RouterView #default="{ Component }">
+    <router-view #default="{ Component }">
       <template v-if="Component">
-        <Transition mode="out-in">
+        <transition mode="out-in">
           <component :is="Component" />
-        </Transition>
+        </transition>
       </template>
-    </RouterView>
-  </MScaffold>
+    </router-view>
+  </m-scaffold>
 </template>
 
 <style scoped>
