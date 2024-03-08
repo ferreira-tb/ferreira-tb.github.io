@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@vueuse/core": "^10.9.0",
-    "manatsu": "^0.4.26",
+    "manatsu": "^0.4.27",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
