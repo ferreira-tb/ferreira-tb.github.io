@@ -1,6 +1,6 @@
 {
   "name": "@tb-dev/me",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "type": "module",
   "private": true,
   "packageManager": "pnpm@8.15.2",
@@ -19,8 +19,9 @@
     "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
+    "@manatsu/style": "^0.5.1",
     "@vueuse/core": "^10.9.0",
-    "manatsu": "^0.4.27",
+    "manatsu": "^0.5.1",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
