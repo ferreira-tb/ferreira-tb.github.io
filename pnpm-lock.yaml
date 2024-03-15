@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@manatsu/style':
     specifier: ^0.5.1
-    version: 0.5.1(sass@1.71.1)
+    version: 0.5.1(sass@1.72.0)
   '@vueuse/core':
     specifier: ^10.9.0
     version: 10.9.0(vue@3.4.21)
@@ -29,8 +29,8 @@ devDependencies:
     specifier: ^1.2.1
     version: 1.2.1
   '@types/node':
-    specifier: ^20.11.27
-    version: 20.11.27
+    specifier: ^20.11.28
+    version: 20.11.28
   '@vitejs/plugin-vue':
     specifier: ^5.0.4
     version: 5.0.4(vite@5.1.6)(vue@3.4.21)
@@ -69,7 +69,7 @@ devDependencies:
     version: 5.4.2
   vite:
     specifier: ^5.1.6
-    version: 5.1.6(@types/node@20.11.27)(sass@1.71.1)
+    version: 5.1.6(@types/node@20.11.28)(sass@1.72.0)
   vite-plugin-vue-devtools:
     specifier: ^7.0.17
     version: 7.0.17(vite@5.1.6)(vue@3.4.21)
@@ -783,13 +783,13 @@ packages:
       vue-router: 4.3.0(vue@3.4.21)
     dev: false
 
-  /@manatsu/style@0.5.1(sass@1.71.1):
+  /@manatsu/style@0.5.1(sass@1.72.0):
     resolution: {integrity: sha512-jDn1hvSM6KqhjnYKCDsrn8pBLKaN6kMmxNO95YBgtD//oEkHTFxqxRE7xNv/en06w488jnyaLhwUdEEOO+B9iA==}
     engines: {node: '>=20'}
     peerDependencies:
       sass: ^1.71.1
     dependencies:
-      sass: 1.71.1
+      sass: 1.72.0
     dev: false
 
   /@manatsu/vue-plugin@0.5.1(@vueuse/core@10.9.0)(vue-router@4.3.0)(vue@3.4.21):
@@ -1006,8 +1006,8 @@ packages:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
     dev: true
 
-  /@types/node@20.11.27:
-    resolution: {integrity: sha512-qyUZfMnCg1KEz57r7pzFtSGt49f6RPkPBis3Vo4PbS7roQEDn22hiHzl/Lo1q4i4hDEgBJmBF/NTNg2XR0HbFg==}
+  /@types/node@20.11.28:
+    resolution: {integrity: sha512-M/GPWVS2wLkSkNHVeLkrF2fD5Lx5UC4PxA0uZcKc6QqbIQUJyW1jVjueJYi1z8n0I5PxYrtpnPnWglE+y9A0KA==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -1229,7 +1229,7 @@ packages:
       vite: ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 5.1.6(@types/node@20.11.27)(sass@1.71.1)
+      vite: 5.1.6(@types/node@20.11.28)(sass@1.72.0)
       vue: 3.4.21(typescript@5.4.2)
     dev: true
 
@@ -3307,8 +3307,8 @@ packages:
       queue-microtask: 1.2.3
     dev: true
 
-  /sass@1.71.1:
-    resolution: {integrity: sha512-wovtnV2PxzteLlfNzbgm1tFXPLoZILYAMJtvoXXkD7/+1uP41eKkIt1ypWq5/q2uT94qHjXehEYfmjKOvjL9sg==}
+  /sass@1.72.0:
+    resolution: {integrity: sha512-Gpczt3WA56Ly0Mn8Sl21Vj94s1axi9hDIzDFn9Ph9x3C3p4nNyvsqJoQyVXKou6cBlfFWEgRW4rT8Tb4i3XnVA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -3670,7 +3670,7 @@ packages:
     peerDependencies:
       vite: ^2.6.0 || ^3.0.0 || ^4.0.0 || ^5.0.0-0
     dependencies:
-      vite: 5.1.6(@types/node@20.11.27)(sass@1.71.1)
+      vite: 5.1.6(@types/node@20.11.28)(sass@1.72.0)
     dev: true
 
   /vite-plugin-inspect@0.8.3(vite@5.1.6):
@@ -3692,7 +3692,7 @@ packages:
       perfect-debounce: 1.0.0
       picocolors: 1.0.0
       sirv: 2.0.4
-      vite: 5.1.6(@types/node@20.11.27)(sass@1.71.1)
+      vite: 5.1.6(@types/node@20.11.28)(sass@1.72.0)
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -3709,7 +3709,7 @@ packages:
       '@vue/devtools-shared': 7.0.17
       execa: 8.0.1
       sirv: 2.0.4
-      vite: 5.1.6(@types/node@20.11.27)(sass@1.71.1)
+      vite: 5.1.6(@types/node@20.11.28)(sass@1.72.0)
       vite-plugin-inspect: 0.8.3(vite@5.1.6)
       vite-plugin-vue-inspector: 4.0.2(vite@5.1.6)
     transitivePeerDependencies:
@@ -3733,12 +3733,12 @@ packages:
       '@vue/compiler-dom': 3.4.21
       kolorist: 1.8.0
       magic-string: 0.30.7
-      vite: 5.1.6(@types/node@20.11.27)(sass@1.71.1)
+      vite: 5.1.6(@types/node@20.11.28)(sass@1.72.0)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite@5.1.6(@types/node@20.11.27)(sass@1.71.1):
+  /vite@5.1.6(@types/node@20.11.28)(sass@1.72.0):
     resolution: {integrity: sha512-yYIAZs9nVfRJ/AiOLCA91zzhjsHUgMjB+EigzFb6W2XTLO8JixBCKCjvhKZaye+NKYHCrkv3Oh50dH9EdLU2RA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -3766,11 +3766,11 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.11.27
+      '@types/node': 20.11.28
       esbuild: 0.19.12
       postcss: 8.4.35
       rollup: 4.12.1
-      sass: 1.71.1
+      sass: 1.72.0
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
