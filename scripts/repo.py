@@ -28,6 +28,7 @@ repos = [
     get_info("tsukilabs/manatsu"),
     get_info("ferreira-tb/miho"),
     get_info("ferreira-tb/gh-label"),
+    get_info("ferreira-tb/vndb"),
 ]
 
 file_path = path.join(os.getcwd(), "public/data/repos.json")
