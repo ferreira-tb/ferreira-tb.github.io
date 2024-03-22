@@ -19,15 +19,15 @@
     "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
-    "@manatsu/style": "^0.6.0",
+    "@manatsu/style": "^0.6.1",
     "@vueuse/core": "^10.9.0",
-    "manatsu": "^0.6.0",
+    "manatsu": "^0.6.1",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "@tb-dev/eslint-config": "^3.2.2",
-    "@tb-dev/utility-types": "^1.2.2",
+    "@tb-dev/eslint-config": "^3.2.3",
+    "@tb-dev/utility-types": "^1.2.3",
     "@types/node": "^20.11.30",
     "@vitejs/plugin-vue": "^5.0.4",
     "autoprefixer": "^10.4.19",
