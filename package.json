@@ -1,6 +1,6 @@
 {
   "name": "@tb-dev/me",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "type": "module",
   "private": true,
   "packageManager": "pnpm@8.15.2",
@@ -19,14 +19,14 @@
     "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
-    "@manatsu/style": "^0.6.5",
+    "@manatsu/style": "^0.6.21",
     "@vueuse/core": "^10.9.0",
-    "manatsu": "^0.6.5",
+    "manatsu": "^0.6.21",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "@tb-dev/eslint-config": "^3.2.3",
+    "@tb-dev/eslint-config": "^3.3.1",
     "@tb-dev/utility-types": "^1.2.4",
     "@types/node": "^20.11.30",
     "@vitejs/plugin-vue": "^5.0.4",
@@ -36,13 +36,13 @@
     "lint-staged": "^15.2.2",
     "postcss": "^8.4.38",
     "prettier": "^3.2.5",
-    "prettier-plugin-css-order": "^2.0.1",
-    "prettier-plugin-tailwindcss": "^0.5.12",
-    "tailwindcss": "^3.4.1",
+    "prettier-plugin-css-order": "^2.1.1",
+    "prettier-plugin-tailwindcss": "^0.5.13",
+    "tailwindcss": "^3.4.3",
     "tslib": "^2.6.2",
     "typescript": "5.4.3",
     "vite": "^5.2.6",
-    "vite-plugin-vue-devtools": "^7.0.20",
+    "vite-plugin-vue-devtools": "^7.0.24",
     "vue-tsc": "^2.0.7"
   }
 }

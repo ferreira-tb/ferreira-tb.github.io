@@ -7,7 +7,11 @@ import { router } from '@/router';
 import { createManatsu } from 'manatsu';
 
 const app = createApp(App);
-const manatsu = createManatsu({ darkMode: true, errorHandler: null });
+const manatsu = createManatsu({
+  darkMode: true,
+  errorHandler: console.error,
+  router
+});
 
 app.use(router);
 app.use(manatsu);
