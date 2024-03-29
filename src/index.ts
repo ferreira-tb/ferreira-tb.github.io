@@ -9,8 +9,7 @@ import { createManatsu } from 'manatsu';
 const app = createApp(App);
 const manatsu = createManatsu({
   darkMode: true,
-  errorHandler: console.error,
-  router
+  errorHandler: console.error
 });
 
 app.use(router);

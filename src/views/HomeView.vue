@@ -57,7 +57,7 @@ function view(repo: Repository) {
             />
           </div>
           <div>
-            <m-button variant="outlined" @click="view(repo)">View</m-button>
+            <m-button @click="view(repo)">View</m-button>
           </div>
         </div>
       </template>
