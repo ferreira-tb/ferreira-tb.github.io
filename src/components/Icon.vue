@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue';
-import { icons } from '@/assets/icons';
+import { icons } from '@/utils/icons';
 
 interface Props {
   height?: string;
@@ -20,16 +20,10 @@ const iconHeight = computed(() => props.size ?? props.height);
 </script>
 
 <template>
-  <span class="icon" v-html="icon"></span>
+  <span class="icon flex items-center justify-center" v-html="icon"></span>
 </template>
 
 <style scoped>
-.icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .icon > :deep(svg) {
   width: v-bind('iconWidth');
   height: v-bind('iconHeight');

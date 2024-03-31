@@ -8,7 +8,7 @@ import { MScaffold, MTopAppbar } from 'manatsu';
     <template #top>
       <m-top-appbar title="ferreira-tb" :title-link="{ name: 'home' }">
         <template #logo>
-          <div id="logo" class="size-8 overflow-hidden">
+          <div class="size-8 overflow-hidden rounded-full">
             <img src="/katsuo.png" alt="logo" decoding="async" class="inline w-full" />
           </div>
         </template>
@@ -29,9 +29,3 @@ import { MScaffold, MTopAppbar } from 'manatsu';
     </router-view>
   </m-scaffold>
 </template>
-
-<style scoped>
-#logo {
-  border-radius: 50%;
-}
-</style>

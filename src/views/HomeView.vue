@@ -1,38 +1,18 @@
 <script setup lang="ts">
-import { icons } from '@/assets/icons';
 import { MButton, MCard } from 'manatsu';
 import Icon from '@/components/Icon.vue';
 import { useAsyncState } from '@vueuse/core';
+import { getRepositories, getUrl, parseLanguageName } from '@/utils/repository';
 
-const { state: repos, isLoading } = useAsyncState<Repository[]>(async () => {
-  const response = await fetch('/data/repos.json');
-  const repositories: Repository[] = await response.json();
-
-  for (const repository of repositories) {
-    repository.languages = repository.languages.filter((lang) => {
-      const icon = icons[parse(lang.node.name)];
-      return Boolean(icon);
-    });
-
-    repository.languages.sort((a, b) => b.size - a.size);
-  }
-
-  return repositories;
-}, []);
-
-function parse(name: string) {
-  let lang = name.trim().toLowerCase();
-  if (lang === 'scss') lang = 'sass';
-  return lang;
-}
+const { state: repos, isLoading } = useAsyncState<Repository[]>(getRepositories, []);
 
 function view(repo: Repository) {
-  globalThis.open(repo.url, '_blank');
+  globalThis.open(getUrl(repo), '_blank');
 }
 </script>
 
 <template>
-  <div v-if="!isLoading" id="repository-grid">
+  <div v-if="!isLoading" id="grid">
     <m-card
       v-for="repo of repos"
       :key="repo.name"
@@ -46,13 +26,13 @@ function view(repo: Repository) {
             <icon
               v-for="lang of repo.languages"
               :key="lang.node.name"
-              :name="parse(lang.node.name)"
+              :name="parseLanguageName(lang.node.name)"
               height="1rem"
             />
             <icon
               v-for="lang of repo.extraLanguages"
               :key="lang"
-              :name="parse(lang)"
+              :name="parseLanguageName(lang)"
               height="1rem"
             />
           </div>
@@ -75,7 +55,7 @@ function view(repo: Repository) {
 </template>
 
 <style scoped>
-#repository-grid {
+#grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1rem;
