@@ -20,9 +20,9 @@
     "update": "miho update major -t"
   },
   "dependencies": {
-    "@manatsu/style": "^0.7.0",
+    "@manatsu/style": "^0.7.1",
     "@vueuse/core": "^10.9.0",
-    "manatsu": "^0.7.0",
+    "manatsu": "^0.7.1",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
@@ -37,7 +37,7 @@
     "lint-staged": "^15.2.2",
     "postcss": "^8.4.38",
     "prettier": "^3.2.5",
-    "prettier-plugin-css-order": "^2.1.1",
+    "prettier-plugin-css-order": "^2.1.2",
     "prettier-plugin-tailwindcss": "^0.5.13",
     "tailwindcss": "^3.4.3",
     "tslib": "^2.6.2",
