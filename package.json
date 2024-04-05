@@ -20,9 +20,9 @@
     "update": "miho update major -t"
   },
   "dependencies": {
-    "@manatsu/style": "^0.7.5",
+    "@manatsu/style": "^0.7.7",
     "@vueuse/core": "^10.9.0",
-    "manatsu": "^0.7.5",
+    "manatsu": "^0.7.7",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
