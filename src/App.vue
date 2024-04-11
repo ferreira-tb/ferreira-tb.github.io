@@ -6,7 +6,11 @@ import { MScaffold, MTopAppbar } from 'manatsu';
 <template>
   <m-scaffold default-border="none">
     <template #top>
-      <m-top-appbar title="ferreira-tb" :title-link="{ name: 'home' }">
+      <m-top-appbar
+        title="ferreira-tb"
+        :title-link="{ name: 'home' }"
+        end-class="flex items-center justify-center gap-2"
+      >
         <template #logo>
           <div class="size-8 overflow-hidden rounded-full">
             <img src="/katsuo.png" alt="logo" decoding="async" class="inline w-full" />
@@ -15,6 +19,9 @@ import { MScaffold, MTopAppbar } from 'manatsu';
         <template #end>
           <a href="https://github.com/ferreira-tb" target="_blank" rel="noopener noreferrer">
             <icon name="github" size="1.5rem" />
+          </a>
+          <a href="https://twitter.com/aferreira_tb" target="_blank" rel="noopener noreferrer">
+            <icon name="x" size="1.5rem" />
           </a>
         </template>
       </m-top-appbar>
