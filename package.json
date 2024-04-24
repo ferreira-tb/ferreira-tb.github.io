@@ -1,6 +1,6 @@
 {
   "name": "@tb-dev/me",
-  "version": "0.3.9",
+  "version": "0.3.10",
   "type": "module",
   "private": true,
   "packageManager": "pnpm@9.0.5",
