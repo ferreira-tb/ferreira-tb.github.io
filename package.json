@@ -1,9 +1,9 @@
 {
   "name": "@tb-dev/me",
-  "version": "0.3.10",
+  "version": "0.3.11",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@9.0.5",
+  "packageManager": "pnpm@9.0.6",
   "lint-staged": {
     "*.{?(c|m)@(j|t)s,css,vue,md,json}": "prettier --write",
     "*.{?(c|m)@(j|t)s,vue}": "pnpm lint"
