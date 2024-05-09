@@ -25,11 +25,11 @@ importers:
         version: 4.3.2(vue@3.4.26(typescript@5.4.5))
     devDependencies:
       '@tb-dev/eslint-config':
-        specifier: ^3.5.1
-        version: 3.5.1(eslint@8.57.0)(typescript@5.4.5)
+        specifier: ^3.5.2
+        version: 3.5.2(eslint@8.57.0)(typescript@5.4.5)
       '@tb-dev/utility-types':
-        specifier: ^1.2.7
-        version: 1.2.7
+        specifier: ^1.3.0
+        version: 1.3.0
       '@types/node':
         specifier: ^20.12.11
         version: 20.12.11
@@ -610,15 +610,15 @@ packages:
     resolution: {integrity: sha512-cM7SJQP4DBkLLMOdybLFYUURWn/tng2FEdAnXlu42f3NhFxKL4KVeeQTkuwlgC7ePwwwvDSqiXGiF+dKOadY7w==}
     engines: {node: '>= 18', npm: '>= 6.6.0', yarn: '>= 1.19.1'}
 
-  '@tb-dev/eslint-config@3.5.1':
-    resolution: {integrity: sha512-t3sfiky7lNl/3NHB1OdKdmOjlkF3Ew7n66PB8W+awLisLFiXvrHX1nPaoAIYdVdj56nf9JIUeiEkPPWvjOBSqA==}
+  '@tb-dev/eslint-config@3.5.2':
+    resolution: {integrity: sha512-r0/kDbFVuqyWex9V1hVzdjakDoFMaaq8zDUxzZMtaRELLpOdrjkKFBncYrsAdFI2ZTO5L63v0EEQnnO8MttKDQ==}
     engines: {node: '>=20'}
     peerDependencies:
       eslint: ^8.57.0
       typescript: ^5.4.0
 
-  '@tb-dev/utility-types@1.2.7':
-    resolution: {integrity: sha512-+TA+4gi/BKwyiECyaGTxtfisgB3ziSG0kE6iS1Ad3URlJvKkdSoL3yVHRnHsVwRnspslvuU9mJZqXDxOLC4YAA==}
+  '@tb-dev/utility-types@1.3.0':
+    resolution: {integrity: sha512-5ZEjw1Ebce13O22WeO6tpoG0jcxE/tAzDH82Y9izvrgt1H7md3fV1/tt1UuJzYohD+3r0HgSW98wAj7ilZigGQ==}
 
   '@tb-dev/utils@1.4.4':
     resolution: {integrity: sha512-wLale9SENx5PnvrhYeMiAR0m2d13EStMeegKC526XPQdd7FP/iuok5a+pI77wb9Q85/Sz8D49nbm46zo2p+RmQ==}
@@ -1133,8 +1133,8 @@ packages:
       vitest:
         optional: true
 
-  eslint-plugin-vue@9.25.0:
-    resolution: {integrity: sha512-tDWlx14bVe6Bs+Nnh3IGrD+hb11kf2nukfm6jLsmJIhmiRQ1SUaksvwY9U5MvPB0pcrg0QK0xapQkfITs3RKOA==}
+  eslint-plugin-vue@9.26.0:
+    resolution: {integrity: sha512-eTvlxXgd4ijE1cdur850G6KalZqk65k1JKoOI2d1kT3hr8sPD07j1q98FRFdNnpxBELGPWxZmInxeHGF/GxtqQ==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
@@ -1279,8 +1279,8 @@ packages:
     resolution: {integrity: sha512-AhO5QUcj8llrbG09iWhPU2B204J1xnPeL8kQmVorSsy+Sjj1sk8gIyh6cUocGmH4L0UuhAJy+hJMRA4mgA4mFQ==}
     engines: {node: '>=8'}
 
-  globals@15.1.0:
-    resolution: {integrity: sha512-926gJqg+4mkxwYKiFvoomM4J0kWESfk3qfTvRL2/oc/tK/eTDBbrfcKnSa2KtfdxB5onoL7D3A3qIHQFpd4+UA==}
+  globals@15.2.0:
+    resolution: {integrity: sha512-FQ5YwCHZM3nCmtb5FzEWwdUc9K5d3V/w9mzcz8iGD1gC/aOTHc6PouYu0kkKipNJqHAT7m51sqzQjEjIP+cK0A==}
     engines: {node: '>=18'}
 
   globby@11.1.0:
@@ -1936,8 +1936,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  semver@7.6.1:
-    resolution: {integrity: sha512-f/vbBsu+fOiYt+lmwZV0rVwJScl46HppnOA1ZvIuBWKOTlllpyJ3bfVax76/OrhCH38dyxoDIA8K7uB963IYgA==}
+  semver@7.6.2:
+    resolution: {integrity: sha512-FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -2622,7 +2622,7 @@ snapshots:
       '@manatsu/shared': 0.7.8(@vueuse/core@10.9.0(vue@3.4.26(typescript@5.4.5)))(vue-router@4.3.2(vue@3.4.26(typescript@5.4.5)))(vue@3.4.26(typescript@5.4.5))
       '@manatsu/vue-plugin': 0.7.8(@tauri-apps/api@2.0.0-beta.7)(@vueuse/core@10.9.0(vue@3.4.26(typescript@5.4.5)))(vue-router@4.3.2(vue@3.4.26(typescript@5.4.5)))(vue@3.4.26(typescript@5.4.5))
       '@tauri-apps/api': 2.0.0-beta.7
-      '@tb-dev/utility-types': 1.2.7
+      '@tb-dev/utility-types': 1.3.0
       '@tb-dev/utils': 1.4.4
       '@vueuse/core': 10.9.0(vue@3.4.26(typescript@5.4.5))
       vue: 3.4.26(typescript@5.4.5)
@@ -2632,7 +2632,7 @@ snapshots:
     dependencies:
       '@manatsu/shared': 0.7.8(@vueuse/core@10.9.0(vue@3.4.26(typescript@5.4.5)))(vue-router@4.3.2(vue@3.4.26(typescript@5.4.5)))(vue@3.4.26(typescript@5.4.5))
       '@tauri-apps/api': 2.0.0-beta.7
-      '@tb-dev/utility-types': 1.2.7
+      '@tb-dev/utility-types': 1.3.0
       '@tb-dev/utils': 1.4.4
       '@vueuse/core': 10.9.0(vue@3.4.26(typescript@5.4.5))
       vue: 3.4.26(typescript@5.4.5)
@@ -2640,7 +2640,7 @@ snapshots:
 
   '@manatsu/shared@0.7.8(@vueuse/core@10.9.0(vue@3.4.26(typescript@5.4.5)))(vue-router@4.3.2(vue@3.4.26(typescript@5.4.5)))(vue@3.4.26(typescript@5.4.5))':
     dependencies:
-      '@tb-dev/utility-types': 1.2.7
+      '@tb-dev/utility-types': 1.3.0
       '@tb-dev/utils': 1.4.4
       '@vueuse/core': 10.9.0(vue@3.4.26(typescript@5.4.5))
       vue: 3.4.26(typescript@5.4.5)
@@ -2654,7 +2654,7 @@ snapshots:
     dependencies:
       '@manatsu/shared': 0.7.8(@vueuse/core@10.9.0(vue@3.4.26(typescript@5.4.5)))(vue-router@4.3.2(vue@3.4.26(typescript@5.4.5)))(vue@3.4.26(typescript@5.4.5))
       '@tauri-apps/api': 2.0.0-beta.7
-      '@tb-dev/utility-types': 1.2.7
+      '@tb-dev/utility-types': 1.3.0
     transitivePeerDependencies:
       - '@vueuse/core'
       - vue
@@ -2665,7 +2665,7 @@ snapshots:
       '@manatsu/shared': 0.7.8(@vueuse/core@10.9.0(vue@3.4.26(typescript@5.4.5)))(vue-router@4.3.2(vue@3.4.26(typescript@5.4.5)))(vue@3.4.26(typescript@5.4.5))
       '@manatsu/tauri-plugin': 0.7.8(@tauri-apps/api@2.0.0-beta.7)(@vueuse/core@10.9.0(vue@3.4.26(typescript@5.4.5)))(vue-router@4.3.2(vue@3.4.26(typescript@5.4.5)))(vue@3.4.26(typescript@5.4.5))
       '@tauri-apps/api': 2.0.0-beta.7
-      '@tb-dev/utility-types': 1.2.7
+      '@tb-dev/utility-types': 1.3.0
       '@tb-dev/utils': 1.4.4
       '@vueuse/core': 10.9.0(vue@3.4.26(typescript@5.4.5))
       vue: 3.4.26(typescript@5.4.5)
@@ -2746,7 +2746,7 @@ snapshots:
 
   '@tauri-apps/api@2.0.0-beta.7': {}
 
-  '@tb-dev/eslint-config@3.5.1(eslint@8.57.0)(typescript@5.4.5)':
+  '@tb-dev/eslint-config@3.5.2(eslint@8.57.0)(typescript@5.4.5)':
     dependencies:
       '@typescript-eslint/eslint-plugin': 7.8.0(@typescript-eslint/parser@7.8.0(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)(typescript@5.4.5)
       '@typescript-eslint/parser': 7.8.0(eslint@8.57.0)(typescript@5.4.5)
@@ -2755,8 +2755,8 @@ snapshots:
       eslint-plugin-perfectionist: 2.10.0(eslint@8.57.0)(typescript@5.4.5)(vue-eslint-parser@9.4.2(eslint@8.57.0))
       eslint-plugin-unicorn: 52.0.0(eslint@8.57.0)
       eslint-plugin-vitest: 0.5.4(@typescript-eslint/eslint-plugin@7.8.0(@typescript-eslint/parser@7.8.0(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)(typescript@5.4.5)
-      eslint-plugin-vue: 9.25.0(eslint@8.57.0)
-      globals: 15.1.0
+      eslint-plugin-vue: 9.26.0(eslint@8.57.0)
+      globals: 15.2.0
       typescript: 5.4.5
       vue-eslint-parser: 9.4.2(eslint@8.57.0)
     transitivePeerDependencies:
@@ -2766,11 +2766,11 @@ snapshots:
       - svelte-eslint-parser
       - vitest
 
-  '@tb-dev/utility-types@1.2.7': {}
+  '@tb-dev/utility-types@1.3.0': {}
 
   '@tb-dev/utils@1.4.4':
     dependencies:
-      '@tb-dev/utility-types': 1.2.7
+      '@tb-dev/utility-types': 1.3.0
 
   '@types/estree@1.0.5': {}
 
@@ -2799,7 +2799,7 @@ snapshots:
       graphemer: 1.4.0
       ignore: 5.3.1
       natural-compare: 1.4.0
-      semver: 7.6.1
+      semver: 7.6.2
       ts-api-utils: 1.3.0(typescript@5.4.5)
     optionalDependencies:
       typescript: 5.4.5
@@ -2846,7 +2846,7 @@ snapshots:
       globby: 11.1.0
       is-glob: 4.0.3
       minimatch: 9.0.4
-      semver: 7.6.1
+      semver: 7.6.2
       ts-api-utils: 1.3.0(typescript@5.4.5)
     optionalDependencies:
       typescript: 5.4.5
@@ -2862,7 +2862,7 @@ snapshots:
       '@typescript-eslint/types': 7.8.0
       '@typescript-eslint/typescript-estree': 7.8.0(typescript@5.4.5)
       eslint: 8.57.0
-      semver: 7.6.1
+      semver: 7.6.2
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -3354,7 +3354,7 @@ snapshots:
       read-pkg-up: 7.0.1
       regexp-tree: 0.1.27
       regjsparser: 0.10.0
-      semver: 7.6.1
+      semver: 7.6.2
       strip-indent: 3.0.0
     transitivePeerDependencies:
       - supports-color
@@ -3369,7 +3369,7 @@ snapshots:
       - supports-color
       - typescript
 
-  eslint-plugin-vue@9.25.0(eslint@8.57.0):
+  eslint-plugin-vue@9.26.0(eslint@8.57.0):
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.57.0)
       eslint: 8.57.0
@@ -3377,7 +3377,7 @@ snapshots:
       natural-compare: 1.4.0
       nth-check: 2.1.1
       postcss-selector-parser: 6.0.16
-      semver: 7.6.1
+      semver: 7.6.2
       vue-eslint-parser: 9.4.2(eslint@8.57.0)
       xml-name-validator: 4.0.0
     transitivePeerDependencies:
@@ -3568,7 +3568,7 @@ snapshots:
     dependencies:
       type-fest: 0.20.2
 
-  globals@15.1.0: {}
+  globals@15.2.0: {}
 
   globby@11.1.0:
     dependencies:
@@ -3787,7 +3787,7 @@ snapshots:
       '@manatsu/shared': 0.7.8(@vueuse/core@10.9.0(vue@3.4.26(typescript@5.4.5)))(vue-router@4.3.2(vue@3.4.26(typescript@5.4.5)))(vue@3.4.26(typescript@5.4.5))
       '@manatsu/vue-plugin': 0.7.8(@tauri-apps/api@2.0.0-beta.7)(@vueuse/core@10.9.0(vue@3.4.26(typescript@5.4.5)))(vue-router@4.3.2(vue@3.4.26(typescript@5.4.5)))(vue@3.4.26(typescript@5.4.5))
       '@tauri-apps/api': 2.0.0-beta.7
-      '@tb-dev/utility-types': 1.2.7
+      '@tb-dev/utility-types': 1.3.0
       '@tb-dev/utils': 1.4.4
       '@vueuse/core': 10.9.0(vue@3.4.26(typescript@5.4.5))
       vue: 3.4.26(typescript@5.4.5)
@@ -4113,7 +4113,7 @@ snapshots:
     dependencies:
       lru-cache: 6.0.0
 
-  semver@7.6.1: {}
+  semver@7.6.2: {}
 
   shebang-command@2.0.0:
     dependencies:
@@ -4381,7 +4381,7 @@ snapshots:
       espree: 9.6.1
       esquery: 1.5.0
       lodash: 4.17.21
-      semver: 7.6.1
+      semver: 7.6.2
     transitivePeerDependencies:
       - supports-color
 
