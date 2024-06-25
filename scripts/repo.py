@@ -25,9 +25,7 @@ def get_info(name: str, extra_langs: list[str] = []):
 
 
 repos = [
-    get_info("ferreira-tb/kotori"),
-    get_info("ferreira-tb/manatsu"),
-    get_info("ferreira-tb/miho"),
+    get_info("ferreira-tb/kotori")
 ]
 
 file_path = path.join(os.getcwd(), "public/data/repos.json")
