@@ -28,8 +28,8 @@ importers:
         specifier: ^3.8.8
         version: 3.8.8(eslint@8.57.0)(typescript@5.5.3)
       '@tb-dev/utility-types':
-        specifier: ^1.4.3
-        version: 1.4.3
+        specifier: ^1.4.4
+        version: 1.4.4
       '@types/node':
         specifier: ^20.14.9
         version: 20.14.9
@@ -627,8 +627,8 @@ packages:
       eslint: ^8.57.0
       typescript: ^5.4.0
 
-  '@tb-dev/utility-types@1.4.3':
-    resolution: {integrity: sha512-3gsZvDXgkkV1u/2xRdVDivzG+UDiPyAzokkA1k+0DvSi8cQFMdsiDwGi2kGZLUDmvebJIgRWu41fcKuQgVPEBg==}
+  '@tb-dev/utility-types@1.4.4':
+    resolution: {integrity: sha512-//mGexdOfuN4cwQtY+5aZIQGAxhHkRoTzNjfSk4a8AHBY19vNvCwnX9VhAfDgFfZwiwTcuYXhPYZPhMyr1Vnpg==}
 
   '@tb-dev/utils@1.4.4':
     resolution: {integrity: sha512-wLale9SENx5PnvrhYeMiAR0m2d13EStMeegKC526XPQdd7FP/iuok5a+pI77wb9Q85/Sz8D49nbm46zo2p+RmQ==}
@@ -2716,7 +2716,7 @@ snapshots:
       '@manatsu/shared': 0.7.8(@vueuse/core@10.11.0(vue@3.4.31(typescript@5.5.3)))(vue-router@4.4.0(vue@3.4.31(typescript@5.5.3)))(vue@3.4.31(typescript@5.5.3))
       '@manatsu/vue-plugin': 0.7.8(@tauri-apps/api@2.0.0-beta.7)(@vueuse/core@10.11.0(vue@3.4.31(typescript@5.5.3)))(vue-router@4.4.0(vue@3.4.31(typescript@5.5.3)))(vue@3.4.31(typescript@5.5.3))
       '@tauri-apps/api': 2.0.0-beta.7
-      '@tb-dev/utility-types': 1.4.3
+      '@tb-dev/utility-types': 1.4.4
       '@tb-dev/utils': 1.4.4
       '@vueuse/core': 10.11.0(vue@3.4.31(typescript@5.5.3))
       vue: 3.4.31(typescript@5.5.3)
@@ -2726,7 +2726,7 @@ snapshots:
     dependencies:
       '@manatsu/shared': 0.7.8(@vueuse/core@10.11.0(vue@3.4.31(typescript@5.5.3)))(vue-router@4.4.0(vue@3.4.31(typescript@5.5.3)))(vue@3.4.31(typescript@5.5.3))
       '@tauri-apps/api': 2.0.0-beta.7
-      '@tb-dev/utility-types': 1.4.3
+      '@tb-dev/utility-types': 1.4.4
       '@tb-dev/utils': 1.4.4
       '@vueuse/core': 10.11.0(vue@3.4.31(typescript@5.5.3))
       vue: 3.4.31(typescript@5.5.3)
@@ -2734,7 +2734,7 @@ snapshots:
 
   '@manatsu/shared@0.7.8(@vueuse/core@10.11.0(vue@3.4.31(typescript@5.5.3)))(vue-router@4.4.0(vue@3.4.31(typescript@5.5.3)))(vue@3.4.31(typescript@5.5.3))':
     dependencies:
-      '@tb-dev/utility-types': 1.4.3
+      '@tb-dev/utility-types': 1.4.4
       '@tb-dev/utils': 1.4.4
       '@vueuse/core': 10.11.0(vue@3.4.31(typescript@5.5.3))
       vue: 3.4.31(typescript@5.5.3)
@@ -2748,7 +2748,7 @@ snapshots:
     dependencies:
       '@manatsu/shared': 0.7.8(@vueuse/core@10.11.0(vue@3.4.31(typescript@5.5.3)))(vue-router@4.4.0(vue@3.4.31(typescript@5.5.3)))(vue@3.4.31(typescript@5.5.3))
       '@tauri-apps/api': 2.0.0-beta.7
-      '@tb-dev/utility-types': 1.4.3
+      '@tb-dev/utility-types': 1.4.4
     transitivePeerDependencies:
       - '@vueuse/core'
       - vue
@@ -2759,7 +2759,7 @@ snapshots:
       '@manatsu/shared': 0.7.8(@vueuse/core@10.11.0(vue@3.4.31(typescript@5.5.3)))(vue-router@4.4.0(vue@3.4.31(typescript@5.5.3)))(vue@3.4.31(typescript@5.5.3))
       '@manatsu/tauri-plugin': 0.7.8(@tauri-apps/api@2.0.0-beta.7)(@vueuse/core@10.11.0(vue@3.4.31(typescript@5.5.3)))(vue-router@4.4.0(vue@3.4.31(typescript@5.5.3)))(vue@3.4.31(typescript@5.5.3))
       '@tauri-apps/api': 2.0.0-beta.7
-      '@tb-dev/utility-types': 1.4.3
+      '@tb-dev/utility-types': 1.4.4
       '@tb-dev/utils': 1.4.4
       '@vueuse/core': 10.11.0(vue@3.4.31(typescript@5.5.3))
       vue: 3.4.31(typescript@5.5.3)
@@ -2860,11 +2860,11 @@ snapshots:
       - svelte-eslint-parser
       - vitest
 
-  '@tb-dev/utility-types@1.4.3': {}
+  '@tb-dev/utility-types@1.4.4': {}
 
   '@tb-dev/utils@1.4.4':
     dependencies:
-      '@tb-dev/utility-types': 1.4.3
+      '@tb-dev/utility-types': 1.4.4
 
   '@types/estree@1.0.5': {}
 
@@ -3883,7 +3883,7 @@ snapshots:
       '@manatsu/shared': 0.7.8(@vueuse/core@10.11.0(vue@3.4.31(typescript@5.5.3)))(vue-router@4.4.0(vue@3.4.31(typescript@5.5.3)))(vue@3.4.31(typescript@5.5.3))
       '@manatsu/vue-plugin': 0.7.8(@tauri-apps/api@2.0.0-beta.7)(@vueuse/core@10.11.0(vue@3.4.31(typescript@5.5.3)))(vue-router@4.4.0(vue@3.4.31(typescript@5.5.3)))(vue@3.4.31(typescript@5.5.3))
       '@tauri-apps/api': 2.0.0-beta.7
-      '@tb-dev/utility-types': 1.4.3
+      '@tb-dev/utility-types': 1.4.4
       '@tb-dev/utils': 1.4.4
       '@vueuse/core': 10.11.0(vue@3.4.31(typescript@5.5.3))
       vue: 3.4.31(typescript@5.5.3)
