@@ -21,10 +21,14 @@ def get_info(name: str, extra_langs: list[str] = []):
 
     info = json.loads(output.stdout)
     info["extraLanguages"] = extra_langs
+    print(info)
     return info
 
 
-repos = [get_info("ferreira-tb/kotori", "ferreira-tb/tauri-plugin-prevent-default")]
+repos = [
+    get_info("ferreira-tb/kotori"),
+    get_info("ferreira-tb/tauri-plugin-prevent-default"),
+]
 
 file_path = path.join(os.getcwd(), "public/data/repos.json")
 with open(file_path, "w") as file:
