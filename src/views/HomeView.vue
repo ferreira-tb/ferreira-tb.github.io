@@ -2,12 +2,12 @@
 import { MButton, MCard } from 'manatsu';
 import Icon from '@/components/Icon.vue';
 import { useAsyncState } from '@vueuse/core';
-import { getRepositories, getUrl, parseLanguageName } from '@/utils/repository';
+import { getRepositories, parseLanguageName } from '@/utils/repository';
 
 const { state: repos, isLoading } = useAsyncState<Repository[]>(getRepositories, []);
 
 function view(repo: Repository) {
-  globalThis.open(getUrl(repo), '_blank');
+  globalThis.open(repo.url, '_blank');
 }
 </script>
 

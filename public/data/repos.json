@@ -14,16 +14,6 @@
     "extraLanguages": []
   },
   {
-    "description": "Repository management tools",
-    "languages": [{ "size": 49486, "node": { "name": "Rust" } }],
-    "name": "miho",
-    "primaryLanguage": { "name": "Rust" },
-    "stargazerCount": 0,
-    "updatedAt": "2024-07-01T13:03:35Z",
-    "url": "https://github.com/ferreira-tb/miho",
-    "extraLanguages": []
-  },
-  {
     "description": "Disable default browser shortcuts",
     "languages": [
       { "size": 3344, "node": { "name": "Rust" } },
@@ -34,6 +24,30 @@
     "stargazerCount": 3,
     "updatedAt": "2024-07-03T06:39:32Z",
     "url": "https://github.com/ferreira-tb/tauri-plugin-prevent-default",
+    "extraLanguages": []
+  },
+  {
+    "description": "Personal website",
+    "languages": [
+      { "size": 3484, "node": { "name": "Vue" } },
+      { "size": 16783, "node": { "name": "TypeScript" } },
+      { "size": 827, "node": { "name": "Python" } }
+    ],
+    "name": "ferreira-tb.github.io",
+    "primaryLanguage": { "name": "TypeScript" },
+    "stargazerCount": 0,
+    "updatedAt": "2024-07-03T18:42:44Z",
+    "url": "https://github.com/ferreira-tb/ferreira-tb.github.io",
+    "extraLanguages": []
+  },
+  {
+    "description": "Repository management tools",
+    "languages": [{ "size": 49486, "node": { "name": "Rust" } }],
+    "name": "miho",
+    "primaryLanguage": { "name": "Rust" },
+    "stargazerCount": 0,
+    "updatedAt": "2024-07-01T13:03:35Z",
+    "url": "https://github.com/ferreira-tb/miho",
     "extraLanguages": []
   }
 ]

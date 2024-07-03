@@ -1,69 +1,38 @@
 {
-  "vsicons.associations.folders": [
-    {
-      "icon": "theme",
-      "extensions": ["composables"],
-      "format": "svg"
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
     },
-    {
-      "icon": "component",
-      "extensions": ["components"],
-      "format": "svg",
-      "overrides": "component"
-    }
-  ],
-  "editor.tabSize": 2,
-  "files.exclude": {
-    ".eslintcache": true
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
   },
-  "prettier.requireConfig": true,
-  "editor.defaultFormatter": null,
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter",
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": "explicit"
-    }
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "eslint.codeActionsOnSave.mode": "problems",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "files.exclude": {
+    ".eslintcache": true
   },
   "isort.args": ["--profile", "black"],
-  "tailwindCSS.classAttributes": [
-    "body-class",
-    "bottom-class",
-    "center-class",
-    "class",
-    "content-class",
-    "dialog-class",
-    "dropdown-class",
-    "end-class",
-    "footer-class",
-    "header-class",
-    "header-end-class",
-    "header-start-class",
-    "input-class",
-    "label-class",
-    "logo-class",
-    "media-class",
-    "menu-class",
-    "menu-item-class",
-    "sidebar-class",
-    "sidebar-item-class",
-    "start-class",
-    "subtitle-class",
-    "tbody-class",
-    "tbody-row-class",
-    "thead-class",
-    "thead-row-class",
-    "title-class",
-    "title-link-class",
-    "top-class"
-  ],
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  "prettier.requireConfig": true,
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "vsicons.associations.folders": [
+    {
+      "extensions": ["composables"],
+      "format": "svg",
+      "icon": "theme"
+    },
+    {
+      "extensions": ["components"],
+      "format": "svg",
+      "icon": "component",
+      "overrides": "component"
+    }
+  ]
 }

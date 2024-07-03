@@ -17,7 +17,7 @@ import { MScaffold, MTopAppbar } from 'manatsu';
           </div>
         </template>
         <template #end>
-          <a href="https://twitter.com/aferreira_tb" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/aferreira_tb" target="_blank" rel="noopener noreferrer">
             <icon name="x" size="1.5rem" />
           </a>
           <a href="https://github.com/ferreira-tb" target="_blank" rel="noopener noreferrer">

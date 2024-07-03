@@ -1,4 +1,3 @@
-import { docs } from '@/utils/docs';
 import { icons } from '@/utils/icons';
 
 export async function getRepositories() {
@@ -21,9 +20,4 @@ export function parseLanguageName(name: string) {
   let lang = name.trim().toLowerCase();
   if (lang === 'scss') lang = 'sass';
   return lang;
-}
-
-export function getUrl(repository: Repository) {
-  const url = docs[repository.name];
-  return typeof url === 'string' ? url : repository.url;
 }

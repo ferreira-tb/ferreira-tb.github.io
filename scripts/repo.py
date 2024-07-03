@@ -1,8 +1,6 @@
 import json
 import os
 import subprocess
-from os import path
-from subprocess import CalledProcessError
 
 
 def get(name: str, extra_langs: list[str] = []):
@@ -21,12 +19,15 @@ def get(name: str, extra_langs: list[str] = []):
 
 
 repos = [
+    get("ferreira-tb/ferreira-tb.github.io"),
     get("ferreira-tb/kotori"),
     get("ferreira-tb/miho"),
     get("ferreira-tb/tauri-plugin-prevent-default"),
 ]
 
-file_path = path.join(os.getcwd(), "public/data/repos.json")
-with open(file_path, "w") as file:
+repos.sort(key=lambda repo: repo["stargazerCount"], reverse=True)
+
+path = os.path.join(os.getcwd(), "public/data/repos.json")
+with open(path, "w") as file:
     json.dump(repos, file)
-    print(f"Updated {file_path}")
+    print(f"Updated {path}")
