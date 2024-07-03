@@ -24,9 +24,7 @@ def get_info(name: str, extra_langs: list[str] = []):
     return info
 
 
-repos = [
-    get_info("ferreira-tb/kotori")
-]
+repos = [get_info("ferreira-tb/kotori", "ferreira-tb/tauri-plugin-prevent-default")]
 
 file_path = path.join(os.getcwd(), "public/data/repos.json")
 with open(file_path, "w") as file:

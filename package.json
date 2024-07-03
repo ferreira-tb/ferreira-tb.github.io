@@ -1,6 +1,6 @@
 {
   "name": "@tb-dev/me",
-  "version": "0.3.14",
+  "version": "0.3.15",
   "type": "module",
   "private": true,
   "packageManager": "pnpm@9.1.0",
@@ -23,7 +23,7 @@
     "@manatsu/style": "^0.7.8",
     "@vueuse/core": "^10.11.0",
     "manatsu": "^0.7.8",
-    "vue": "^3.4.30",
+    "vue": "^3.4.31",
     "vue-router": "^4.4.0"
   },
   "devDependencies": {
@@ -42,7 +42,7 @@
     "tailwindcss": "^3.4.4",
     "tslib": "^2.6.3",
     "typescript": "5.5.3",
-    "vite": "^5.3.2",
+    "vite": "^5.3.3",
     "vite-plugin-vue-devtools": "^7.3.5",
     "vue-tsc": "^2.0.24"
   }
