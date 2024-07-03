@@ -1,47 +1,36 @@
 [
   {
-    "description": "Vue component library for Tauri apps",
+    "description": "Multiplatform manga reader",
     "languages": [
-      { "size": 29344, "node": { "name": "TypeScript" } },
-      { "size": 26374, "node": { "name": "Vue" } },
-      { "size": 42643, "node": { "name": "Rust" } },
-      { "size": 6771, "node": { "name": "SCSS" } }
+      { "size": 111217, "node": { "name": "Rust" } },
+      { "size": 9703, "node": { "name": "Vue" } },
+      { "size": 21872, "node": { "name": "TypeScript" } }
     ],
-    "name": "manatsu",
+    "name": "kotori",
     "primaryLanguage": { "name": "Rust" },
-    "updatedAt": "2024-01-18T22:11:09Z",
-    "url": "https://github.com/tsukilabs/manatsu",
+    "updatedAt": "2024-07-03T15:18:55Z",
+    "url": "https://github.com/ferreira-tb/kotori",
     "extraLanguages": []
   },
   {
     "description": "Repository management tools",
-    "languages": [{ "size": 31664, "node": { "name": "Rust" } }],
+    "languages": [{ "size": 49486, "node": { "name": "Rust" } }],
     "name": "miho",
     "primaryLanguage": { "name": "Rust" },
-    "updatedAt": "2024-01-03T06:47:22Z",
+    "updatedAt": "2024-07-01T13:03:35Z",
     "url": "https://github.com/ferreira-tb/miho",
     "extraLanguages": []
   },
   {
-    "description": "Simple GUI for editing GitHub labels",
+    "description": "Disable default browser shortcuts",
     "languages": [
-      { "size": 4755, "node": { "name": "Rust" } },
-      { "size": 6647, "node": { "name": "TypeScript" } },
-      { "size": 15266, "node": { "name": "Svelte" } }
+      { "size": 3344, "node": { "name": "Rust" } },
+      { "size": 619, "node": { "name": "JavaScript" } }
     ],
-    "name": "gh-label",
-    "primaryLanguage": { "name": "Svelte" },
-    "updatedAt": "2024-01-14T18:48:59Z",
-    "url": "https://github.com/ferreira-tb/gh-label",
-    "extraLanguages": []
-  },
-  {
-    "description": "Custom query builder for VNDB",
-    "languages": [{ "size": 53655, "node": { "name": "TypeScript" } }],
-    "name": "vndb-query",
-    "primaryLanguage": { "name": "TypeScript" },
-    "updatedAt": "2024-01-20T14:36:25Z",
-    "url": "https://github.com/ferreira-tb/vndb-query",
+    "name": "tauri-plugin-prevent-default",
+    "primaryLanguage": { "name": "Rust" },
+    "updatedAt": "2024-07-03T06:39:32Z",
+    "url": "https://github.com/ferreira-tb/tauri-plugin-prevent-default",
     "extraLanguages": []
   }
 ]
