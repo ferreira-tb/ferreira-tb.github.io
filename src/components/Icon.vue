@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue';
-import { icons } from '@/utils/icons';
+import { icons } from '@/lib/icons';
 
 interface Props {
   height?: string;

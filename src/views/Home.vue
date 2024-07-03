@@ -3,7 +3,7 @@ import Card from '@/components/Card.vue';
 import Icon from '@/components/Icon.vue';
 import Button from '@/components/Button.vue';
 import { useAsyncState } from '@vueuse/core';
-import { getRepositories, parseLanguageName } from '@/utils/repository';
+import { getRepositories, parseLanguageName } from '@/lib/repository';
 
 const { state: repos, isLoading } = useAsyncState<Repository[]>(getRepositories, []);
 
@@ -13,7 +13,7 @@ function view(repo: Repository) {
 </script>
 
 <template>
-  <section class="relative size-full">
+  <div class="relative size-full overflow-y-auto overflow-x-hidden p-4">
     <div v-if="!isLoading" id="grid">
       <Card
         v-for="repo of repos"
@@ -51,7 +51,7 @@ function view(repo: Repository) {
       loading="lazy"
       class="loading absolute left-2/4 top-2/4 -translate-y-2/4 translate-x-2/4"
     />
-  </section>
+  </div>
 </template>
 
 <style scoped>

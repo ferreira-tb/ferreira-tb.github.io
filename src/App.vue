@@ -1,10 +1,20 @@
 <script setup lang="ts">
+import { computed, ref } from 'vue';
 import Icon from '@/components/Icon.vue';
+import { useHeight, useWindowHeight } from '@/composables';
+
+const header = ref<HTMLElement>();
+const headerHeight = useHeight(header);
+const windowHeight = useWindowHeight();
+const contentHeight = computed(() => windowHeight.value - headerHeight.value);
 </script>
 
 <template>
   <main class="fixed inset-0 overflow-hidden bg-surface">
-    <header class="flex h-16 w-full items-center justify-between gap-6 whitespace-nowrap px-4 py-0">
+    <header
+      ref="header"
+      class="flex h-16 w-full items-center justify-between gap-6 whitespace-nowrap px-4 py-0"
+    >
       <RouterLink :to="{ name: 'home' }" class="flex items-center justify-start">
         <div class="mr-2 flex size-8 items-center overflow-hidden rounded-full">
           <img src="/katsuo.png" alt="logo" decoding="async" class="inline w-full" />
@@ -24,7 +34,7 @@ import Icon from '@/components/Icon.vue';
       </div>
     </header>
 
-    <div class="overflow-hidden p-4">
+    <div class="relative w-full overflow-hidden" :style="{ height: `${contentHeight}px` }">
       <RouterView #default="{ Component }">
         <template v-if="Component">
           <component :is="Component" />

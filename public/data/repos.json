@@ -29,16 +29,16 @@
   {
     "description": "Personal website",
     "languages": [
-      { "size": 3466, "node": { "name": "Vue" } },
-      { "size": 16507, "node": { "name": "TypeScript" } },
+      { "size": 5061, "node": { "name": "Vue" } },
+      { "size": 17328, "node": { "name": "TypeScript" } },
       { "size": 867, "node": { "name": "Python" } }
     ],
     "name": "ferreira-tb.github.io",
     "primaryLanguage": { "name": "TypeScript" },
     "stargazerCount": 0,
-    "updatedAt": "2024-07-03T18:44:07Z",
+    "updatedAt": "2024-07-03T20:20:19Z",
     "url": "https://github.com/ferreira-tb/ferreira-tb.github.io",
-    "extraLanguages": ["tailwind"]
+    "extraLanguages": []
   },
   {
     "description": "Repository management tools",

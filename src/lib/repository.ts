@@ -1,4 +1,4 @@
-import { icons } from '@/utils/icons';
+import { icons } from '@/lib/icons';
 
 export async function getRepositories() {
   const response = await fetch('/data/repos.json');
