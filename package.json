@@ -1,6 +1,6 @@
 {
   "name": "@tb-dev/me",
-  "version": "0.3.20",
+  "version": "0.4.0",
   "type": "module",
   "private": true,
   "packageManager": "pnpm@9.1.0",
@@ -22,9 +22,7 @@
     "update": "miho update major -t"
   },
   "dependencies": {
-    "@manatsu/style": "^0.7.8",
     "@vueuse/core": "^10.11.0",
-    "manatsu": "^0.7.8",
     "vue": "^3.4.31",
     "vue-router": "^4.4.0"
   },

@@ -9,14 +9,18 @@ lerna-debug.log*
 
 **/node_modules
 .DS_Store
+coverage
+*.local
+.eslintcache
+
+# Output
+/build
 dist
 dist-ssr
 target
-coverage
-*.local
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
 .vite
-.eslintcache
-**/*vite*timestamp*
 
 # Editor directories and files
 .vscode/*
