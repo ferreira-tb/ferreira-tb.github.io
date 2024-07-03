@@ -1,6 +1,6 @@
 {
   "name": "@tb-dev/me",
-  "version": "0.3.18",
+  "version": "0.3.19",
   "type": "module",
   "private": true,
   "packageManager": "pnpm@9.1.0",
@@ -10,11 +10,12 @@
   },
   "scripts": {
     "build": "pnpm run type-check && vite build",
-    "bump": "py scripts/repo.py && miho bump -k -a .",
+    "bump": "pnpm run get-data format && miho bump -k -a . -m \"chore: deploy\"",
     "dev": "vite",
     "prepare": "husky",
     "format": "prettier . --write",
     "format-check": "prettier . --check",
+    "get-data": "py scripts/repo.py",
     "lint": "eslint . --config eslint.config.js --cache",
     "preview": "vite preview",
     "type-check": "vue-tsc --noEmit",

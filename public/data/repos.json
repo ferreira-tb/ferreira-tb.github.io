@@ -8,6 +8,7 @@
     ],
     "name": "kotori",
     "primaryLanguage": { "name": "Rust" },
+    "stargazerCount": 3,
     "updatedAt": "2024-07-03T15:18:55Z",
     "url": "https://github.com/ferreira-tb/kotori",
     "extraLanguages": []
@@ -17,6 +18,7 @@
     "languages": [{ "size": 49486, "node": { "name": "Rust" } }],
     "name": "miho",
     "primaryLanguage": { "name": "Rust" },
+    "stargazerCount": 0,
     "updatedAt": "2024-07-01T13:03:35Z",
     "url": "https://github.com/ferreira-tb/miho",
     "extraLanguages": []
@@ -29,6 +31,7 @@
     ],
     "name": "tauri-plugin-prevent-default",
     "primaryLanguage": { "name": "Rust" },
+    "stargazerCount": 3,
     "updatedAt": "2024-07-03T06:39:32Z",
     "url": "https://github.com/ferreira-tb/tauri-plugin-prevent-default",
     "extraLanguages": []
