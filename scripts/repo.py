@@ -23,6 +23,7 @@ repos = [
     get("ferreira-tb/kotori"),
     get("ferreira-tb/miho"),
     get("ferreira-tb/tauri-plugin-prevent-default"),
+    get("ferreira-tb/template-tauri"),
 ]
 
 repos.sort(key=lambda repo: repo["stargazerCount"], reverse=True)
@@ -30,4 +31,3 @@ repos.sort(key=lambda repo: repo["stargazerCount"], reverse=True)
 path = os.path.join(os.getcwd(), "public/data/repos.json")
 with open(path, "w") as file:
     json.dump(repos, file)
-    print(f"Updated {path}")
