@@ -1,6 +1,6 @@
 {
   "name": "@tb-dev/me",
-  "version": "0.4.2",
+  "version": "0.4.4",
   "type": "module",
   "private": true,
   "packageManager": "pnpm@9.1.0",
@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@tb-dev/eslint-config": "^3.8.8",
-    "@tb-dev/utility-types": "^1.4.3",
+    "@tb-dev/utility-types": "^1.4.4",
     "@types/node": "^20.14.9",
     "@vitejs/plugin-vue": "^5.0.5",
     "autoprefixer": "^10.4.19",
@@ -44,6 +44,6 @@
     "typescript": "5.5.3",
     "vite": "^5.3.3",
     "vite-plugin-vue-devtools": "^7.3.5",
-    "vue-tsc": "^2.0.24"
+    "vue-tsc": "^2.0.26"
   }
 }
