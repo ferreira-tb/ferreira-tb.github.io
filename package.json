@@ -1,9 +1,9 @@
 {
   "name": "@tb-dev/me",
-  "version": "0.4.7",
+  "version": "0.4.8",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@9.1.0",
+  "packageManager": "pnpm@9.5.0",
   "lint-staged": {
     "*.{?(c|m)@(j|t)s,css,vue,md,json}": "prettier --write",
     "*.{?(c|m)@(j|t)s,vue}": "pnpm lint"
@@ -22,13 +22,13 @@
     "update": "miho update major -t"
   },
   "dependencies": {
+    "@tb-dev/utils": "^2.0.0",
     "@vueuse/core": "^10.11.0",
     "vue": "^3.4.31",
     "vue-router": "^4.4.0"
   },
   "devDependencies": {
     "@tb-dev/eslint-config": "^3.8.8",
-    "@tb-dev/utility-types": "^1.4.4",
     "@types/node": "^20.14.10",
     "@vitejs/plugin-vue": "^5.0.5",
     "autoprefixer": "^10.4.19",

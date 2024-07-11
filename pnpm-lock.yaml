@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@tb-dev/utils':
+        specifier: ^2.0.0
+        version: 2.0.0
       '@vueuse/core':
         specifier: ^10.11.0
         version: 10.11.0(vue@3.4.31(typescript@5.5.3))
@@ -21,9 +24,6 @@ importers:
       '@tb-dev/eslint-config':
         specifier: ^3.8.8
         version: 3.8.8(eslint@8.57.0)(typescript@5.5.3)
-      '@tb-dev/utility-types':
-        specifier: ^1.4.4
-        version: 1.4.4
       '@types/node':
         specifier: ^20.14.10
         version: 20.14.10
@@ -568,8 +568,8 @@ packages:
       eslint: ^8.57.0
       typescript: ^5.4.0
 
-  '@tb-dev/utility-types@1.4.4':
-    resolution: {integrity: sha512-//mGexdOfuN4cwQtY+5aZIQGAxhHkRoTzNjfSk4a8AHBY19vNvCwnX9VhAfDgFfZwiwTcuYXhPYZPhMyr1Vnpg==}
+  '@tb-dev/utils@2.0.0':
+    resolution: {integrity: sha512-7Cya4F9F3wfDfheO671WlzX+nL5EGZxJQRigNIlvRiz+vg855sEc525h6QnR2dE/krGCpOan9CtyiYEo+0sMYQ==}
 
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
@@ -2732,7 +2732,7 @@ snapshots:
       - svelte-eslint-parser
       - vitest
 
-  '@tb-dev/utility-types@1.4.4': {}
+  '@tb-dev/utils@2.0.0': {}
 
   '@types/estree@1.0.5': {}
 
