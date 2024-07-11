@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@tb-dev/eslint-config": "^3.8.8",
-    "@tb-dev/utility-types": "^1.4.4",
+    "@tb-dev/utility-types": "^1.4.7",
     "@types/node": "^20.14.10",
     "@vitejs/plugin-vue": "^5.0.5",
     "autoprefixer": "^10.4.19",
