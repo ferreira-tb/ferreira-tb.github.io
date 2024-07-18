@@ -22,7 +22,7 @@
     "update": "miho update major -t"
   },
   "dependencies": {
-    "@tb-dev/utils": "^2.0.0",
+    "@tb-dev/utils": "^2.0.1",
     "@vueuse/core": "^10.11.0",
     "vue": "^3.4.31",
     "vue-router": "^4.4.0"
@@ -33,7 +33,7 @@
     "@vitejs/plugin-vue": "^5.0.5",
     "autoprefixer": "^10.4.19",
     "eslint": "^8.57.0",
-    "husky": "^9.1.0",
+    "husky": "^9.1.1",
     "lint-staged": "^15.2.7",
     "postcss": "^8.4.39",
     "prettier": "^3.3.3",
