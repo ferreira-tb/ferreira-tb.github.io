@@ -1,6 +1,6 @@
 {
   "name": "@tb-dev/me",
-  "version": "0.4.9",
+  "version": "0.4.10",
   "type": "module",
   "private": true,
   "packageManager": "pnpm@9.5.0",
@@ -24,7 +24,7 @@
   "dependencies": {
     "@tb-dev/utils": "^2.0.1",
     "@vueuse/core": "^10.11.0",
-    "vue": "^3.4.31",
+    "vue": "^3.4.33",
     "vue-router": "^4.4.0"
   },
   "devDependencies": {

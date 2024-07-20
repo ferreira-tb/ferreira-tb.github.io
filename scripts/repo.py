@@ -23,6 +23,7 @@ repos = [
     get("ferreira-tb/kotori"),
     get("ferreira-tb/manatsu"),
     get("ferreira-tb/miho"),
+    get("ferreira-tb/tauri-plugin-pinia"),
     get("ferreira-tb/tauri-plugin-prevent-default"),
     get("ferreira-tb/template-tauri"),
 ]
