@@ -28,7 +28,7 @@
     "vue-router": "^4.4.0"
   },
   "devDependencies": {
-    "@tb-dev/eslint-config": "^3.8.10",
+    "@tb-dev/eslint-config": "^4.1.1",
     "@types/node": "^20.14.11",
     "@vitejs/plugin-vue": "^5.0.5",
     "autoprefixer": "^10.4.19",
