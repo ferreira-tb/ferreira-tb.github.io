@@ -23,5 +23,5 @@ export const icons: Readonly<Record<string, string>> = {
 
   vue: '<svg xmlns="http://www.w3.org/2000/svg" alt="Vue" width="37.07" height="32" viewBox="0 0 256 221"><path fill="#41B883" d="M204.8 0H256L128 220.8L0 0h97.92L128 51.2L157.44 0z"/><path fill="#41B883" d="m0 0l128 220.8L256 0h-51.2L128 132.48L50.56 0z"/><path fill="#35495E" d="M50.56 0L128 133.12L204.8 0h-47.36L128 51.2L97.92 0z"/></svg>',
 
-  x: '<svg xmlns="http://www.w3.org/2000/svg" alt="Twitter" width="32" height="32" viewBox="0 0 24 24"><path fill="#888888" d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584l-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>'
+  x: '<svg xmlns="http://www.w3.org/2000/svg" alt="Twitter" width="32" height="32" viewBox="0 0 24 24"><path fill="#888888" d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584l-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>',
 };

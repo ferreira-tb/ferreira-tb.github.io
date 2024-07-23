@@ -7,8 +7,8 @@ export default {
       colors: {
         surface: 'var(--color-surface)',
         'on-surface': 'var(--color-on-surface)',
-        'surface-container-low': 'var(--color-surface-container-low)'
-      }
-    }
-  }
+        'surface-container-low': 'var(--color-surface-container-low)',
+      },
+    },
+  },
 };

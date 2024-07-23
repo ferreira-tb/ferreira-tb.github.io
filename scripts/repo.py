@@ -19,6 +19,7 @@ def get(name: str, extra_langs: list[str] = []):
 
 
 repos = [
+    get("ferreira-tb/eslint-config"),
     get("ferreira-tb/ferreira-tb.github.io"),
     get("ferreira-tb/kotori"),
     get("ferreira-tb/manatsu"),

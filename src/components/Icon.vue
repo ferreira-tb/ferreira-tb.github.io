@@ -11,7 +11,7 @@ interface Props {
 
 const props = withDefaults(defineProps<Props>(), {
   width: 'auto',
-  height: 'auto'
+  height: 'auto',
 });
 
 const icon = computed(() => icons[props.name]);
