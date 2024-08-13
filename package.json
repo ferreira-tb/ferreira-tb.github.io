@@ -22,7 +22,7 @@
     "update": "miho update major -t"
   },
   "dependencies": {
-    "@tb-dev/utils": "^2.1.0",
+    "@tb-dev/utils": "^3.0.3",
     "@vueuse/core": "^10.11.1",
     "vue": "^3.4.37",
     "vue-router": "^4.4.3"
