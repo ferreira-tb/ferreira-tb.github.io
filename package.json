@@ -1,9 +1,9 @@
 {
   "name": "@tb-dev/me",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@9.7.0",
+  "packageManager": "pnpm@9.7.1",
   "lint-staged": {
     "*.{?(c|m)@(j|t)s,css,vue,md,json}": "prettier --write",
     "*.{?(c|m)@(j|t)s,vue}": "pnpm lint"
@@ -23,8 +23,8 @@
   },
   "dependencies": {
     "@tb-dev/utils": "^3.2.0",
-    "@vueuse/core": "^10.11.1",
-    "vue": "^3.4.37",
+    "@vueuse/core": "^11.0.0",
+    "vue": "^3.4.38",
     "vue-router": "^4.4.3"
   },
   "devDependencies": {
