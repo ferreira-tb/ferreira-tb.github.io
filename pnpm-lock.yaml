@@ -22,8 +22,8 @@ importers:
         version: 4.4.4(vue@3.5.4(typescript@5.6.2))
     devDependencies:
       '@tb-dev/eslint-config':
-        specifier: ^5.3.1
-        version: 5.3.1(eslint@9.10.0(jiti@1.21.6))(tailwindcss@3.4.11)(typescript@5.6.2)
+        specifier: ^5.3.2
+        version: 5.3.2(eslint@9.10.0(jiti@1.21.6))(tailwindcss@3.4.11)(typescript@5.6.2)
       '@types/node':
         specifier: ^22.5.4
         version: 22.5.4
@@ -37,8 +37,8 @@ importers:
         specifier: ^9.10.0
         version: 9.10.0(jiti@1.21.6)
       husky:
-        specifier: ^9.1.5
-        version: 9.1.5
+        specifier: ^9.1.6
+        version: 9.1.6
       lint-staged:
         specifier: ^15.2.10
         version: 15.2.10
@@ -533,8 +533,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@tb-dev/eslint-config@5.3.1':
-    resolution: {integrity: sha512-14do9hXfYQcPTGkuKeMt9/ibTVs4XAu51BZ0Z4BjFhWC2AvkpruPgEG/TyDZIb/E1QZLXindp6ycpFUhDag0AQ==}
+  '@tb-dev/eslint-config@5.3.2':
+    resolution: {integrity: sha512-SGwW/SlHmX32eXmp3TqBh+b4wwtlm7Ct4XEtfeLO7Ip1JTilvkC0TUWhby7jmptopw/BW0yO0Z/pnpsTruGdVw==}
     engines: {node: '>=22'}
     peerDependencies:
       eslint: ^9.8.0
@@ -1220,8 +1220,8 @@ packages:
     resolution: {integrity: sha512-AXcZb6vzzrFAUE61HnN4mpLqd/cSIwNQjtNWR0euPm6y0iqx3G4gOXaIDdtdDwZmhwe82LA6+zinmW4UBWVePQ==}
     engines: {node: '>=16.17.0'}
 
-  husky@9.1.5:
-    resolution: {integrity: sha512-rowAVRUBfI0b4+niA4SJMhfQwc107VLkBUgEYYAOQAbqDCnra1nYh83hF/MDmhYs9t9n1E3DuKOrs2LYNC+0Ag==}
+  husky@9.1.6:
+    resolution: {integrity: sha512-sqbjZKK7kf44hfdE94EoX8MZNk0n7HeW37O4YrVGCF4wzgQjp+akPAkfUK5LZ6KuR/6sqeAVuXHji+RzQgOn5A==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -2510,7 +2510,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.21.2':
     optional: true
 
-  '@tb-dev/eslint-config@5.3.1(eslint@9.10.0(jiti@1.21.6))(tailwindcss@3.4.11)(typescript@5.6.2)':
+  '@tb-dev/eslint-config@5.3.2(eslint@9.10.0(jiti@1.21.6))(tailwindcss@3.4.11)(typescript@5.6.2)':
     dependencies:
       '@typescript-eslint/eslint-plugin': 8.5.0(@typescript-eslint/parser@8.5.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.6.2))(eslint@9.10.0(jiti@1.21.6))(typescript@5.6.2)
       '@typescript-eslint/parser': 8.5.0(eslint@9.10.0(jiti@1.21.6))(typescript@5.6.2)
@@ -3307,7 +3307,7 @@ snapshots:
 
   human-signals@5.0.0: {}
 
-  husky@9.1.5: {}
+  husky@9.1.6: {}
 
   ignore@5.3.2: {}
 
