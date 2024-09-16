@@ -19,7 +19,6 @@ def get(name: str, extra_langs: list[str] = []):
 
 
 repos = [
-    get("ferreira-tb/ferreira-tb.github.io"),
     get("ferreira-tb/tauri-plugin-pinia"),
     get("ferreira-tb/tauri-plugin-prevent-default"),
 ]

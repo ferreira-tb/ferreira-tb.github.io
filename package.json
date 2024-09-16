@@ -1,13 +1,9 @@
 {
   "name": "@tb-dev/me",
-  "version": "0.5.7",
+  "version": "0.5.9",
   "type": "module",
   "private": true,
   "packageManager": "pnpm@9.10.0",
-  "lint-staged": {
-    "*.{?(c|m)@(j|t)s,css,vue,md,json}": "prettier --write",
-    "*.{?(c|m)@(j|t)s,vue}": "pnpm lint"
-  },
   "scripts": {
     "build": "pnpm run type-check && vite build",
     "deploy": "pnpm run fetch && miho bump -k -a . -m \"chore: deploy\"",
@@ -34,15 +30,13 @@
     "autoprefixer": "^10.4.20",
     "eslint": "^9.10.0",
     "husky": "^9.1.6",
-    "lint-staged": "^15.2.10",
     "postcss": "^8.4.47",
     "prettier": "^3.3.3",
     "prettier-plugin-css-order": "^2.1.2",
     "tailwindcss": "^3.4.11",
     "tslib": "^2.7.0",
     "typescript": "^5.6.2",
-    "vite": "^5.4.5",
-    "vite-plugin-vue-devtools": "^7.4.5",
+    "vite": "^5.4.6",
     "vue-tsc": "^2.1.6"
   }
 }

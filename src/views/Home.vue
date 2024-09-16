@@ -7,7 +7,7 @@ import { getRepositories, parseLanguageName } from '@/lib/repository';
 
 const { state: repos, isLoading } = useAsyncState<Repository[]>(getRepositories, []);
 
-function view(repo: Repository) {
+function openRepository(repo: Repository) {
   globalThis.open(repo.url, '_blank');
 }
 </script>
@@ -37,7 +37,7 @@ function view(repo: Repository) {
             />
           </div>
           <div>
-            <Button @click="view(repo)">View</Button>
+            <Button @click="() => openRepository(repo)">View</Button>
           </div>
         </div>
       </Card>
