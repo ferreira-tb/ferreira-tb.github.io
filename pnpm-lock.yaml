@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@tb-dev/utils':
-        specifier: ^3.3.1
-        version: 3.3.1
+        specifier: ^4.0.0
+        version: 4.0.0
       '@vueuse/core':
         specifier: ^11.1.0
         version: 11.1.0(vue@3.5.10(typescript@5.6.2))
@@ -400,8 +400,8 @@ packages:
       eslint: ^9.8.0
       typescript: ^5.5.0
 
-  '@tb-dev/utils@3.3.1':
-    resolution: {integrity: sha512-CmZ0NjAC9EI2rDB2wRBzLuU6MeOxJXOy2LVxm0yiSDiUq5pxOD6aZx9iclqxTpzBVSZRDJIbyeRv81rrb2LC2g==}
+  '@tb-dev/utils@4.0.0':
+    resolution: {integrity: sha512-iGqHlU7L3MBbK3wWM8iUapwhEBJUamUO1mjD06iqSwGtMSRgEJYJ589VtI76ji+3RgbU/8AQUfAGZsA2CtcGRg==}
 
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
@@ -1853,7 +1853,7 @@ snapshots:
       - svelte-eslint-parser
       - tailwindcss
 
-  '@tb-dev/utils@3.3.1': {}
+  '@tb-dev/utils@4.0.0': {}
 
   '@types/estree@1.0.5': {}
 

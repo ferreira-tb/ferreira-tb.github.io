@@ -18,7 +18,7 @@
     "update": "miho update major -t"
   },
   "dependencies": {
-    "@tb-dev/utils": "^3.3.1",
+    "@tb-dev/utils": "^4.0.0",
     "@vueuse/core": "^11.1.0",
     "vue": "^3.5.10",
     "vue-router": "^4.4.5"
