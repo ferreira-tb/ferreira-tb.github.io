@@ -1,9 +1,9 @@
 {
   "name": "@tb-dev/me",
-  "version": "0.5.11",
+  "version": "0.5.12",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@9.12.0",
+  "packageManager": "pnpm@9.12.1",
   "scripts": {
     "build": "pnpm run type-check && vite build",
     "deploy": "pnpm run fetch && miho bump -k -a . -m \"chore: deploy\"",
@@ -24,7 +24,7 @@
     "vue-router": "^4.4.5"
   },
   "devDependencies": {
-    "@tb-dev/eslint-config": "^5.4.1",
+    "@tb-dev/eslint-config": "^5.4.2",
     "@types/node": "^22.7.5",
     "@vitejs/plugin-vue": "^5.1.4",
     "autoprefixer": "^10.4.20",
