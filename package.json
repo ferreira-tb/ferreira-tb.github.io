@@ -18,14 +18,14 @@
     "update": "miho update major -t"
   },
   "dependencies": {
-    "@tb-dev/utils": "^4.0.3",
+    "@tb-dev/utils": "^4.0.4",
     "@vueuse/core": "^11.2.0",
     "vue": "^3.5.12",
     "vue-router": "^4.4.5"
   },
   "devDependencies": {
-    "@tb-dev/eslint-config": "^5.4.14",
-    "@types/node": "^22.8.6",
+    "@tb-dev/eslint-config": "^5.4.15",
+    "@types/node": "^22.8.7",
     "@vitejs/plugin-vue": "^5.1.4",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.14.0",
