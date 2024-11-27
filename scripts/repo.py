@@ -22,6 +22,7 @@ repos = [
     get("ferreira-tb/miho"),
     get("ferreira-tb/tauri-store"),
     get("ferreira-tb/tauri-plugin-prevent-default"),
+    get("ferreira-tb/vn"),
 ]
 
 repos.sort(key=lambda repo: repo["stargazerCount"], reverse=True)
