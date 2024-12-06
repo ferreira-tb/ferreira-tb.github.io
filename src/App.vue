@@ -25,6 +25,9 @@ const contentHeight = computed(() => windowHeight.value - headerHeight.value);
       </RouterLink>
 
       <div class="flex items-center justify-end gap-4">
+        <a href="https://discord.gg/ARd7McmVNv" target="_blank" rel="noopener noreferrer">
+          <Icon name="discord" size="1.5rem" />
+        </a>
         <a href="https://github.com/ferreira-tb" target="_blank" rel="noopener noreferrer">
           <Icon name="github" size="1.5rem" />
         </a>
