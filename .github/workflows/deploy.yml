@@ -32,13 +32,13 @@ jobs:
 
       - name: Fetch repositories
         shell: pwsh
-        run: '& $env:GITHUB_ACTION_PATH/scripts/fetch.ps1'
+        run: ./scripts/fetch.ps1
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build
         shell: pwsh
-        run: '& $env:GITHUB_ACTION_PATH/scripts/build.ps1'
+        run: ./scripts/build.ps1
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
