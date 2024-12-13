@@ -1,12 +1,3 @@
-interface LanguageNode {
-  name: string;
-}
-
-interface Language {
-  node: LanguageNode;
-  size: number;
-}
-
 interface Repository {
   description: string;
   extraLanguages?: string[];
@@ -15,4 +6,13 @@ interface Repository {
   primaryLanguage?: LanguageNode;
   updatedAt: string;
   url: string;
+}
+
+interface Language {
+  node: LanguageNode;
+  size: number;
+}
+
+interface LanguageNode {
+  name: string;
 }

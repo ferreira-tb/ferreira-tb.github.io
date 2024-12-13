@@ -3,4 +3,3 @@
 *.cjs linguist-detectable=false
 *.html linguist-detectable=false
 *.css linguist-detectable=false
-pre-commit linguist-detectable=false

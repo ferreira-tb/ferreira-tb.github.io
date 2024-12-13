@@ -13,8 +13,6 @@ $Fields = @(
 
 function Get-Repository {
   param(
-    [Parameter(Mandatory = $true)]
-    [ValidateNotNullOrEmpty()]
     [string]$Name,
     [string[]]$ExtraLanguages = @()
   )
@@ -27,8 +25,7 @@ function Get-Repository {
 $Names = @(
   'ferreira-tb/miho',
   'ferreira-tb/tauri-store',
-  'ferreira-tb/tauri-plugin-prevent-default',
-  'ferreira-tb/vn'
+  'ferreira-tb/tauri-plugin-prevent-default'
 )
 
 $Repositories = $Names |
