@@ -1,12 +1,12 @@
 {
   "name": "@tb-dev/me",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "type": "module",
   "private": true,
   "packageManager": "pnpm@9.15.0",
   "scripts": {
     "build": "pnpm run type-check && vite build",
-    "deploy": "pwsh ./scripts/fetch.ps1 && miho bump -k -a . -m \"chore: deploy\"",
+    "deploy": "pwsh scripts/fetch.ps1 && miho bump -k -a . -m \"chore: deploy\"",
     "dev": "vite",
     "format": "prettier . --write",
     "format-check": "prettier . --check",
