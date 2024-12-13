@@ -10,12 +10,7 @@ updates:
           - minor
           - patch
     schedule:
-      interval: 'daily'
-
-  - package-ecosystem: 'pip'
-    directory: '/'
-    schedule:
-      interval: 'daily'
+      interval: 'weekly'
 
   - package-ecosystem: 'github-actions'
     directory: '/'

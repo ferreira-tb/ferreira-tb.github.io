@@ -1,4 +1,4 @@
-name: Deploy docs
+name: Deploy website
 
 on:
   push:
@@ -21,26 +21,24 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
       - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: pnpm
 
-      - name: Setup Pages
+      - name: Configure Pages
         uses: actions/configure-pages@v5
 
-      - run: pnpm install
-      - run: python scripts/repo.py
+      - name: Fetch repositories
+        shell: pwsh
+        run: '& $env:GITHUB_ACTION_PATH\scripts\fetch.ps1'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - run: |
-          pnpm run build
-          touch dist/.nojekyll
-          echo "tb.dev.br" > dist/CNAME
+
+      - name: Build
+        shell: pwsh
+        run: '& $env:GITHUB_ACTION_PATH\scripts\build.ps1'
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

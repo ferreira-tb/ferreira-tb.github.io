@@ -1,17 +1,9 @@
 {
   "recommendations": [
-    "vivaxy.vscode-conventional-commits",
     "dbaeumer.vscode-eslint",
-    "donjayamanne.githistory",
-    "github.vscode-pull-request-github",
     "esbenp.prettier-vscode",
     "bradlc.vscode-tailwindcss",
-    "vscode-icons-team.vscode-icons",
     "vue.volar",
-    "redhat.vscode-yaml",
-    "ms-python.vscode-pylance",
-    "ms-python.python",
-    "ms-python.black-formatter",
-    "ms-python.isort"
+    "ms-vscode.powershell"
   ]
 }

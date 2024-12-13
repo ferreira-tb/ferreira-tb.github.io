@@ -1,10 +1,6 @@
 {
-  "[python]": {
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": "explicit"
-    },
-    "editor.defaultFormatter": "ms-python.black-formatter",
-    "editor.formatOnSave": true
+  "[powershell]": {
+    "editor.defaultFormatter": "ms-vscode.powershell"
   },
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -19,17 +15,20 @@
   "files.exclude": {
     ".eslintcache": true
   },
-  "isort.args": ["--profile", "black"],
   "prettier.requireConfig": true,
   "typescript.tsdk": "node_modules\\typescript\\lib",
   "vsicons.associations.folders": [
     {
-      "extensions": ["composables"],
+      "extensions": [
+        "composables"
+      ],
       "format": "svg",
       "icon": "theme"
     },
     {
-      "extensions": ["components"],
+      "extensions": [
+        "components"
+      ],
       "format": "svg",
       "icon": "component",
       "overrides": "component"
