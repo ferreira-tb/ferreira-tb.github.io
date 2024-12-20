@@ -23,6 +23,7 @@ function Get-Repository {
 }
 
 $Names = @(
+  'ferreira-tb/find-a-plugin',
   'ferreira-tb/miho',
   'ferreira-tb/tauri-store',
   'ferreira-tb/tauri-plugin-prevent-default'
