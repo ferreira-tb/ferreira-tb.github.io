@@ -19,16 +19,12 @@
   "typescript.tsdk": "node_modules\\typescript\\lib",
   "vsicons.associations.folders": [
     {
-      "extensions": [
-        "composables"
-      ],
+      "extensions": ["composables"],
       "format": "svg",
       "icon": "theme"
     },
     {
-      "extensions": [
-        "components"
-      ],
+      "extensions": ["components"],
       "format": "svg",
       "icon": "component",
       "overrides": "component"
