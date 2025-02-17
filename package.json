@@ -1,9 +1,9 @@
 {
   "name": "@tb-dev/me",
-  "version": "0.6.13",
+  "version": "0.6.14",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.2.1",
+  "packageManager": "pnpm@10.4.1",
   "scripts": {
     "build": "pnpm run type-check && vite build",
     "deploy": "pnpm run fetch && miho bump -k -a . -m \"chore: deploy\"",
@@ -15,23 +15,23 @@
     "update": "miho update major -t"
   },
   "dependencies": {
-    "@tb-dev/utils": "^4.1.5",
-    "@vueuse/core": "^12.5.0",
+    "@tb-dev/utils": "^4.1.6",
+    "@vueuse/core": "^12.7.0",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
   },
   "devDependencies": {
-    "@tb-dev/eslint-config": "^6.2.6",
-    "@types/node": "^22.13.1",
+    "@tb-dev/eslint-config": "^6.2.10",
+    "@types/node": "^22.13.4",
     "@vitejs/plugin-vue": "^5.2.1",
     "autoprefixer": "^10.4.20",
-    "eslint": "^9.20.0",
-    "prettier": "^3.5.0",
+    "eslint": "^9.20.1",
+    "prettier": "^3.5.1",
     "prettier-plugin-css-order": "^2.1.2",
     "tailwindcss": "^3.4.17",
     "tslib": "^2.8.1",
     "typescript": "~5.7.3",
     "vite": "^6.1.0",
-    "vue-tsc": "^2.2.0"
+    "vue-tsc": "^2.2.2"
   }
 }
