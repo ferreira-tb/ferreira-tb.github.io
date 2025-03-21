@@ -1,6 +1,6 @@
 {
   "name": "@tb-dev/me",
-  "version": "0.6.19",
+  "version": "0.6.20",
   "type": "module",
   "private": true,
   "packageManager": "pnpm@10.6.5",
@@ -21,10 +21,10 @@
     "vue-router": "^4.5.0"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.0.15",
     "@tb-dev/eslint-config": "^6.6.1",
     "@types/node": "^22.13.10",
     "@vitejs/plugin-vue": "^5.2.3",
-    "autoprefixer": "^10.4.21",
     "eslint": "^9.22.0",
     "prettier": "^3.5.3",
     "prettier-plugin-css-order": "^2.1.2",
