@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@tb-dev/utils':
-        specifier: ^5.1.4
-        version: 5.1.4
+        specifier: ^6.0.0
+        version: 6.0.0
       '@vueuse/core':
         specifier: ^13.0.0
         version: 13.0.0(vue@3.5.13(typescript@5.8.2))
@@ -603,8 +603,8 @@ packages:
       eslint: ^9.23.0
       typescript: ^5.8.2
 
-  '@tb-dev/utils@5.1.4':
-    resolution: {integrity: sha512-Sum4GPAiCbdUc3+W4NPRCshvUY0Pba7K5H6RvIKq8NyVbxZEqsCSlzJPadrhLbdWkqTDES74c662UJZrefZuVA==}
+  '@tb-dev/utils@6.0.0':
+    resolution: {integrity: sha512-cDFmN+0as+b4VuftLIH0e+nStc9favZQs2lt3IWqGCosnKKeO/VgsDLpE7pXIJwQO/61VVJuEhvS3QLzZgNjBA==}
 
   '@types/estree@1.0.7':
     resolution: {integrity: sha512-w28IoSUCJpidD/TGviZwwMJckNESJZXFu7NBZ5YJ4mEUnNraUn9Pm8HSZm/jDF1pDWYKspWE7oVphigUPRakIQ==}
@@ -2626,7 +2626,7 @@ snapshots:
       - tailwindcss
       - ts-node
 
-  '@tb-dev/utils@5.1.4': {}
+  '@tb-dev/utils@6.0.0': {}
 
   '@types/estree@1.0.7': {}
 
