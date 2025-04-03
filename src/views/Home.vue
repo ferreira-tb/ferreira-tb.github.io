@@ -1,11 +1,10 @@
 <script setup lang="ts">
-import Card from '@/components/Card.vue';
 import Icon from '@/components/Icon.vue';
-import Button from '@/components/Button.vue';
-import { useAsyncState } from '@vueuse/core';
+import { asyncRef, Button } from '@tb-dev/vue';
+import ProjectCard from '@/components/ProjectCard.vue';
 import { getRepositories, parseLanguageName } from '@/lib/repository';
 
-const { state: repos, isLoading } = useAsyncState<Repository[]>(getRepositories, []);
+const { state: repos, isLoading } = asyncRef<Repository[]>([], getRepositories);
 
 function openRepository(repo: Repository) {
   globalThis.open(repo.url, '_blank');
@@ -15,7 +14,7 @@ function openRepository(repo: Repository) {
 <template>
   <div class="relative size-full overflow-y-auto overflow-x-hidden p-4">
     <div v-if="!isLoading" id="grid">
-      <Card
+      <ProjectCard
         v-for="repo of repos"
         :key="repo.name"
         :title="repo.name"
@@ -37,10 +36,10 @@ function openRepository(repo: Repository) {
             />
           </div>
           <div>
-            <Button @click="() => openRepository(repo)">View</Button>
+            <Button class="cursor-pointer" @click="() => openRepository(repo)">View</Button>
           </div>
         </div>
-      </Card>
+      </ProjectCard>
     </div>
 
     <img

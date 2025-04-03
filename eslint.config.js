@@ -4,7 +4,7 @@ export default defineConfig({
   project: ['tsconfig.json'],
   features: {
     vue: true,
-    tailwind: true,
+    tailwind: false,
   },
   overrides: {
     vue: {

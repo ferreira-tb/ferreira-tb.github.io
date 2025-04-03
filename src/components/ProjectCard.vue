@@ -10,7 +10,7 @@ defineSlots<{ default: () => VNode }>();
 </script>
 
 <template>
-  <div class="card flex flex-col items-center justify-center rounded-md bg-surface-container-low">
+  <div class="card flex flex-col items-center justify-center rounded-md border border-border">
     <div class="flex w-full items-center justify-between gap-4 p-4">
       <div class="flex flex-1 flex-col items-start justify-center gap-1">
         <span class="text-base font-medium">{{ title }}</span>
