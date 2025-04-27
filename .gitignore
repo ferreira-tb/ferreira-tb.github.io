@@ -5,14 +5,12 @@ npm-debug.log*
 pnpm-debug.log*
 
 **/node_modules
-coverage
 *.local
 .eslintcache
 
 # Output
 /build
 dist
-dist-ssr
 target
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
@@ -23,11 +21,5 @@ vite.config.ts.timestamp-*
 !.vscode/extensions.json
 !.vscode/settings.json
 !.vscode/tasks.json
-.idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
 
 config.json
