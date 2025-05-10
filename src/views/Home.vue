@@ -1,6 +1,7 @@
 <script setup lang="ts">
+import { asyncRef } from '@tb-dev/vue';
 import Icon from '@/components/Icon.vue';
-import { asyncRef, Button } from '@tb-dev/vue';
+import { Button } from '@tb-dev/vue-components';
 import ProjectCard from '@/components/ProjectCard.vue';
 import { getRepositories, parseLanguageName } from '@/lib/repository';
 
