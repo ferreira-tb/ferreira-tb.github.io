@@ -33,3 +33,5 @@ $Repositories = $Names |
   ConvertTo-Json -Compress -Depth 4
 
 New-Item './public/data/repos.json' -Force -ItemType 'file' -Value $Repositories
+
+pnpm run format
