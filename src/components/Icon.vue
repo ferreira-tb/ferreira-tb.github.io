@@ -25,7 +25,7 @@ const iconHeight = computed(() => props.size ?? props.height);
 
 <style scoped>
 .icon > :deep(svg) {
-  width: v-bind('iconWidth');
-  height: v-bind('iconHeight');
+  width: v-bind("iconWidth");
+  height: v-bind("iconHeight");
 }
 </style>
