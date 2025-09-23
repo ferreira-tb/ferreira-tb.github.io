@@ -1,5 +1,5 @@
 {
-  "include": ["src/**/*", "src/**/*.vue", "types/**/*"],
+  "include": ["src/**/*", "src/**/*.vue", "**/*.config.ts"],
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
@@ -36,5 +36,10 @@
     "noEmitOnError": true,
 
     "types": ["vite/client"]
+  },
+
+  "vueCompilerOptions": {
+    "checkUnknownComponents": true,
+    "checkUnknownDirectives": true
   }
 }

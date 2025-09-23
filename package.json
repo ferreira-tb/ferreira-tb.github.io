@@ -1,9 +1,9 @@
 {
-  "name": "@tb-dev/me",
-  "version": "0.8.16",
+  "name": "website",
+  "version": "0.8.17",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.15.1",
+  "packageManager": "pnpm@10.17.1",
   "scripts": {
     "build": "vite build",
     "deploy": "pnpm run fetch && pnpm run format && miho bump -k -a . -m \"chore: deploy\"",
@@ -15,23 +15,23 @@
     "update": "miho update major -t"
   },
   "dependencies": {
-    "@tb-dev/utils": "^7.0.13",
-    "@tb-dev/vue": "^3.2.3",
-    "@tb-dev/vue-components": "^5.4.3",
+    "@tb-dev/utils": "^7.0.15",
+    "@tb-dev/vue": "^3.3.1",
+    "@tb-dev/vue-components": "^6.0.1",
     "@vueuse/core": "^13.9.0",
     "vue": "^3.5.21",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.1.12",
-    "@tb-dev/eslint-config": "^8.0.7",
-    "@types/node": "^24.3.1",
+    "@tailwindcss/vite": "^4.1.13",
+    "@tb-dev/eslint-config": "^8.0.12",
+    "@types/node": "^24.5.2",
     "@vitejs/plugin-vue": "^6.0.1",
-    "eslint": "^9.34.0",
-    "tailwindcss": "^4.1.12",
+    "eslint": "^9.36.0",
+    "tailwindcss": "^4.1.13",
     "tslib": "^2.8.1",
     "typescript": "~5.9.2",
-    "vite": "^7.1.4",
-    "vue-tsc": "^3.0.6"
+    "vite": "^7.1.7",
+    "vue-tsc": "^3.0.8"
   }
 }

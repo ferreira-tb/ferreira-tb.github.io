@@ -4,7 +4,6 @@ export default defineConfig({
   project: ['tsconfig.json'],
   features: {
     vue: true,
-    tailwind: false,
   },
   overrides: {
     vue: {
@@ -13,7 +12,7 @@ export default defineConfig({
         'PascalCase',
         { registeredComponentsOnly: false },
       ],
+      'vue/enforce-style-attribute': ['error', { allow: ['scoped'] }],
     },
-    'vue/enforce-style-attribute': ['error', { allow: ['scoped'] }],
   },
 });
