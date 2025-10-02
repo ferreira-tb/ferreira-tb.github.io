@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "version": "0.8.17",
+  "version": "0.8.18",
   "type": "module",
   "private": true,
   "packageManager": "pnpm@10.17.1",
@@ -15,23 +15,23 @@
     "update": "miho update major -t"
   },
   "dependencies": {
-    "@tb-dev/utils": "^7.0.15",
-    "@tb-dev/vue": "^3.3.1",
-    "@tb-dev/vue-components": "^6.0.1",
+    "@tb-dev/utils": "^7.0.16",
+    "@tb-dev/vue": "^3.3.2",
+    "@tb-dev/vue-components": "^6.0.2",
     "@vueuse/core": "^13.9.0",
-    "vue": "^3.5.21",
+    "vue": "^3.5.22",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.1.13",
-    "@tb-dev/eslint-config": "^8.0.12",
-    "@types/node": "^24.5.2",
+    "@tailwindcss/vite": "^4.1.14",
+    "@tb-dev/eslint-config": "^8.0.13",
+    "@types/node": "^24.6.2",
     "@vitejs/plugin-vue": "^6.0.1",
     "eslint": "^9.36.0",
-    "tailwindcss": "^4.1.13",
+    "tailwindcss": "^4.1.14",
     "tslib": "^2.8.1",
-    "typescript": "~5.9.2",
-    "vite": "^7.1.7",
-    "vue-tsc": "^3.0.8"
+    "typescript": "~5.9.3",
+    "vite": "^7.1.8",
+    "vue-tsc": "^3.1.0"
   }
 }
