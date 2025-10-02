@@ -23,5 +23,22 @@
     "updatedAt": "2025-09-21T19:37:07Z",
     "url": "https://github.com/ferreira-tb/tauri-plugin-prevent-default",
     "extraLanguages": []
+  },
+  {
+    "description": "Multiplayer text game",
+    "languages": [
+      { "size": 402556, "node": { "name": "Rust" } },
+      { "size": 183065, "node": { "name": "Vue" } },
+      { "size": 161001, "node": { "name": "TypeScript" } },
+      { "size": 2426, "node": { "name": "Kotlin" } },
+      { "size": 3520, "node": { "name": "Lua" } },
+      { "size": 1, "node": { "name": "RenderScript" } }
+    ],
+    "name": "nil",
+    "primaryLanguage": { "name": "Rust" },
+    "stargazerCount": 0,
+    "updatedAt": "2025-09-24T03:55:38Z",
+    "url": "https://github.com/tsukilabs/nil",
+    "extraLanguages": []
   }
 ]
