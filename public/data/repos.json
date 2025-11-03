@@ -9,8 +9,8 @@
     ],
     "name": "tauri-store",
     "primaryLanguage": { "name": "Rust" },
-    "stargazerCount": 101,
-    "updatedAt": "2025-10-20T06:27:46Z",
+    "stargazerCount": 104,
+    "updatedAt": "2025-11-03T09:19:55Z",
     "url": "https://github.com/ferreira-tb/tauri-store",
     "extraLanguages": []
   },
@@ -19,8 +19,8 @@
     "languages": [{ "size": 24986, "node": { "name": "Rust" } }],
     "name": "tauri-plugin-prevent-default",
     "primaryLanguage": { "name": "Rust" },
-    "stargazerCount": 101,
-    "updatedAt": "2025-10-15T13:43:25Z",
+    "stargazerCount": 104,
+    "updatedAt": "2025-11-01T18:48:51Z",
     "url": "https://github.com/ferreira-tb/tauri-plugin-prevent-default",
     "extraLanguages": []
   },

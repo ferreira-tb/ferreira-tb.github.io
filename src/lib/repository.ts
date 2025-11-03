@@ -6,8 +6,7 @@ export async function getRepositories() {
 
   for (const repository of repositories) {
     repository.languages = repository.languages.filter((lang) => {
-      const icon = icons[parseLanguageName(lang.node.name)];
-      return Boolean(icon);
+      return Boolean(icons[parseLanguageName(lang.node.name)]);
     });
 
     repository.languages.sort((a, b) => b.size - a.size);
