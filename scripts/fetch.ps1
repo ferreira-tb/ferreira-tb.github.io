@@ -23,9 +23,9 @@ function Get-Repository {
 }
 
 $Names = @(
+  'ferreira-tb/nil',
   'ferreira-tb/tauri-store',
-  'ferreira-tb/tauri-plugin-prevent-default',
-  'tsukilabs/nil'
+  'ferreira-tb/tauri-plugin-prevent-default'
 )
 
 $Repositories = $Names |
