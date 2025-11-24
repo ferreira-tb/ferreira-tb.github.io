@@ -1,27 +1,27 @@
 [
   {
+    "description": "Disable default browser shortcuts",
+    "languages": [{ "size": 31235, "node": { "name": "Rust" } }],
+    "name": "tauri-plugin-prevent-default",
+    "primaryLanguage": { "name": "Rust" },
+    "stargazerCount": 111,
+    "updatedAt": "2025-11-23T03:20:34Z",
+    "url": "https://github.com/ferreira-tb/tauri-plugin-prevent-default",
+    "extraLanguages": []
+  },
+  {
     "description": "Persistent stores for Tauri",
     "languages": [
-      { "size": 106548, "node": { "name": "TypeScript" } },
-      { "size": 242905, "node": { "name": "Rust" } },
+      { "size": 107584, "node": { "name": "TypeScript" } },
+      { "size": 242860, "node": { "name": "Rust" } },
       { "size": 6058, "node": { "name": "Kotlin" } },
       { "size": 14962, "node": { "name": "Swift" } }
     ],
     "name": "tauri-store",
     "primaryLanguage": { "name": "Rust" },
-    "stargazerCount": 104,
-    "updatedAt": "2025-11-03T09:19:55Z",
+    "stargazerCount": 106,
+    "updatedAt": "2025-11-12T19:16:45Z",
     "url": "https://github.com/ferreira-tb/tauri-store",
-    "extraLanguages": []
-  },
-  {
-    "description": "Disable default browser shortcuts",
-    "languages": [{ "size": 24986, "node": { "name": "Rust" } }],
-    "name": "tauri-plugin-prevent-default",
-    "primaryLanguage": { "name": "Rust" },
-    "stargazerCount": 104,
-    "updatedAt": "2025-11-01T18:48:51Z",
-    "url": "https://github.com/ferreira-tb/tauri-plugin-prevent-default",
     "extraLanguages": []
   },
   {
