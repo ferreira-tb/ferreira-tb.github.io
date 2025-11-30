@@ -4,8 +4,8 @@
     "languages": [{ "size": 31235, "node": { "name": "Rust" } }],
     "name": "tauri-plugin-prevent-default",
     "primaryLanguage": { "name": "Rust" },
-    "stargazerCount": 111,
-    "updatedAt": "2025-11-23T03:20:34Z",
+    "stargazerCount": 205,
+    "updatedAt": "2025-11-30T04:51:48Z",
     "url": "https://github.com/ferreira-tb/tauri-plugin-prevent-default",
     "extraLanguages": []
   },
@@ -19,25 +19,22 @@
     ],
     "name": "tauri-store",
     "primaryLanguage": { "name": "Rust" },
-    "stargazerCount": 106,
-    "updatedAt": "2025-11-12T19:16:45Z",
+    "stargazerCount": 115,
+    "updatedAt": "2025-11-30T18:07:44Z",
     "url": "https://github.com/ferreira-tb/tauri-store",
     "extraLanguages": []
   },
   {
     "description": "Multiplayer text game",
     "languages": [
-      { "size": 402556, "node": { "name": "Rust" } },
-      { "size": 183065, "node": { "name": "Vue" } },
-      { "size": 161001, "node": { "name": "TypeScript" } },
-      { "size": 2426, "node": { "name": "Kotlin" } },
-      { "size": 3520, "node": { "name": "Lua" } },
-      { "size": 1, "node": { "name": "RenderScript" } }
+      { "size": 379431, "node": { "name": "Rust" } },
+      { "size": 154191, "node": { "name": "Vue" } },
+      { "size": 148236, "node": { "name": "TypeScript" } }
     ],
     "name": "nil",
     "primaryLanguage": { "name": "Rust" },
     "stargazerCount": 0,
-    "updatedAt": "2025-11-24T17:29:05Z",
+    "updatedAt": "2025-11-30T18:10:22Z",
     "url": "https://github.com/ferreira-tb/nil",
     "extraLanguages": []
   }
