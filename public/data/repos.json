@@ -27,14 +27,14 @@
   {
     "description": "Multiplayer strategy game",
     "languages": [
-      { "size": 624434, "node": { "name": "Rust" } },
-      { "size": 236126, "node": { "name": "Vue" } },
-      { "size": 253379, "node": { "name": "TypeScript" } }
+      { "size": 623301, "node": { "name": "Rust" } },
+      { "size": 237869, "node": { "name": "Vue" } },
+      { "size": 260770, "node": { "name": "TypeScript" } }
     ],
     "name": "nil",
     "primaryLanguage": { "name": "Rust" },
     "stargazerCount": 1,
-    "updatedAt": "2026-02-06T01:15:09Z",
+    "updatedAt": "2026-02-09T03:59:55Z",
     "url": "https://github.com/tsukilabs/nil",
     "extraLanguages": []
   }

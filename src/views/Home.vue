@@ -5,7 +5,7 @@ import { Button } from '@tb-dev/vue-components';
 import ProjectCard from '@/components/ProjectCard.vue';
 import { getRepositories, parseLanguageName } from '@/lib/repository';
 
-const { state: repos, isLoading } = asyncRef<Repository[]>([], getRepositories);
+const { state: repos, loading } = asyncRef<Repository[]>([], getRepositories);
 
 function openRepository(repo: Repository) {
   globalThis.open(repo.url, '_blank');
@@ -14,7 +14,7 @@ function openRepository(repo: Repository) {
 
 <template>
   <div class="relative size-full overflow-y-auto overflow-x-hidden p-4">
-    <div v-if="!isLoading" id="grid">
+    <div v-if="!loading" id="grid">
       <ProjectCard
         v-for="repo of repos"
         :key="repo.name"
