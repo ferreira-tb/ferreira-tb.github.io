@@ -5,14 +5,13 @@ param(
 $ErrorActionPreference = 'Stop'
 $PSNativeCommandUseErrorActionPreference = $true
 
-
 if ($Local) {
   pnpm run fetch
   pnpm run format
 
   miho bump -k
   git add -A
-  git commit -m '"chore: deploy"'
+  git commit -m 'chore: deploy'
   git push
 }
 else {
