@@ -13,6 +13,5 @@ export default defineConfig({
   build: {
     emptyOutDir: true,
     minify: true,
-    target: 'es2015',
   },
 });
