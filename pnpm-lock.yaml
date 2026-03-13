@@ -12,11 +12,11 @@ importers:
         specifier: ^7.3.6
         version: 7.3.6
       '@tb-dev/vue':
-        specifier: ^4.0.8
-        version: 4.0.8(typescript@5.9.3)
+        specifier: ^4.0.9
+        version: 4.0.9(typescript@5.9.3)
       '@tb-dev/vue-components':
-        specifier: ^7.1.5
-        version: 7.1.5(@vue/compiler-sfc@3.5.30)(typescript@5.9.3)
+        specifier: ^7.1.6
+        version: 7.1.6(@vue/compiler-sfc@3.5.30)(typescript@5.9.3)
       '@vueuse/core':
         specifier: ^14.2.1
         version: 14.2.1(vue@3.5.30(typescript@5.9.3))
@@ -564,14 +564,14 @@ packages:
   '@tb-dev/utils@7.3.6':
     resolution: {integrity: sha512-KxJY3wzskUSRpCjNzNv6QL5N2KHGwSTxzGxj4fy7PAdCcBqYafZfbh7HuJZhZSZy5jfvoF50EB+MNkxViP9SZQ==}
 
-  '@tb-dev/vue-components@7.1.5':
-    resolution: {integrity: sha512-8O8FpLo8/MTgZwYtqlWaVNNogqEPUI9fIvF/4ytPJb8QCoz7T1X7sfvbPv0o7xFB3Sl8HEbM5hBSq38VwEMpPw==}
+  '@tb-dev/vue-components@7.1.6':
+    resolution: {integrity: sha512-n3rdr22Wcqfnr59qpQ+z8j3hfr7MzYoLc/ti8LizAc9rJBpeZjDKjyadh2vneL8ZdsDW4ECliNBdiRfqegAobA==}
 
   '@tb-dev/vue-sonner@0.1.3':
     resolution: {integrity: sha512-SZBQ1dwA6k83Z8MaKSAJwXXjxtcK4pKN5PTtr47tXd2Ae7lgi/NKgv704kOE/QCFD4NIkmCxqxXjh0gk164Www==}
 
-  '@tb-dev/vue@4.0.8':
-    resolution: {integrity: sha512-fmdMZBc44bliRAixjmd4YflxybEin23WFd0aYD9L2n4t/AW5bDzEGPGV0OCFOUIEnhg7Mzu3X5lw39g+BUkJJg==}
+  '@tb-dev/vue@4.0.9':
+    resolution: {integrity: sha512-3ME8X+AfPaMaddf8Rd14kwPZnaKAb+aDEw6fFJSIRXIIU8leOEzGnkJmDuzB0L02c5OwGu583yCr9BvMj9UKGg==}
 
   '@tybys/wasm-util@0.10.1':
     resolution: {integrity: sha512-9tTaPJLSiejZKx+Bmog4uSubteqTvFrVrURwkmHixBo0G4seD0zUxp98E1DzUBJxLQ3NPwXrGKDiVjwx/DpPsg==}
@@ -2061,11 +2061,11 @@ snapshots:
 
   '@tb-dev/utils@7.3.6': {}
 
-  '@tb-dev/vue-components@7.1.5(@vue/compiler-sfc@3.5.30)(typescript@5.9.3)':
+  '@tb-dev/vue-components@7.1.6(@vue/compiler-sfc@3.5.30)(typescript@5.9.3)':
     dependencies:
       '@tanstack/vue-table': 8.21.3(vue@3.5.30(typescript@5.9.3))
       '@tb-dev/utils': 7.3.6
-      '@tb-dev/vue': 4.0.8(typescript@5.9.3)
+      '@tb-dev/vue': 4.0.9(typescript@5.9.3)
       '@tb-dev/vue-sonner': 0.1.3(typescript@5.9.3)
       '@vueuse/core': 14.2.1(vue@3.5.30(typescript@5.9.3))
       class-variance-authority: 0.7.1
@@ -2090,7 +2090,7 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  '@tb-dev/vue@4.0.8(typescript@5.9.3)':
+  '@tb-dev/vue@4.0.9(typescript@5.9.3)':
     dependencies:
       '@tb-dev/utils': 7.3.6
       '@vueuse/core': 14.2.1(vue@3.5.30(typescript@5.9.3))
@@ -3102,7 +3102,7 @@ snapshots:
   terser@5.44.0:
     dependencies:
       '@jridgewell/source-map': 0.3.11
-      acorn: 8.15.0
+      acorn: 8.16.0
       commander: 2.20.3
       source-map-support: 0.5.21
     optional: true
