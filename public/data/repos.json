@@ -4,8 +4,8 @@
     "languages": [{ "size": 31235, "node": { "name": "Rust" } }],
     "name": "tauri-plugin-prevent-default",
     "primaryLanguage": { "name": "Rust" },
-    "stargazerCount": 222,
-    "updatedAt": "2026-03-12T19:06:19Z",
+    "stargazerCount": 221,
+    "updatedAt": "2026-04-04T03:57:55Z",
     "url": "https://github.com/ferreira-tb/tauri-plugin-prevent-default",
     "extraLanguages": []
   },
@@ -27,15 +27,15 @@
   {
     "description": "Multiplayer strategy game",
     "languages": [
-      { "size": 750719, "node": { "name": "Rust" } },
-      { "size": 262191, "node": { "name": "Vue" } },
-      { "size": 280389, "node": { "name": "TypeScript" } },
-      { "size": 43609, "node": { "name": "Lua" } }
+      { "size": 773446, "node": { "name": "Rust" } },
+      { "size": 372571, "node": { "name": "Vue" } },
+      { "size": 300208, "node": { "name": "TypeScript" } },
+      { "size": 44213, "node": { "name": "Lua" } }
     ],
     "name": "nil",
     "primaryLanguage": { "name": "Rust" },
     "stargazerCount": 1,
-    "updatedAt": "2026-03-19T23:49:18Z",
+    "updatedAt": "2026-04-05T01:39:14Z",
     "url": "https://github.com/tsukilabs/nil",
     "extraLanguages": []
   }
