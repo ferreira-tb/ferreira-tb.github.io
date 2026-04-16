@@ -23,8 +23,8 @@ importers:
         specifier: ^4.0.19
         version: 4.0.19(typescript@6.0.2)
       '@tb-dev/vue-components':
-        specifier: ^7.1.15
-        version: 7.1.15(@vue/compiler-sfc@3.5.32)(typescript@6.0.2)
+        specifier: ^7.1.16
+        version: 7.1.16(@vue/compiler-sfc@3.5.32)(typescript@6.0.2)
       '@vueuse/core':
         specifier: ^14.2.1
         version: 14.2.1(vue@3.5.32(typescript@6.0.2))
@@ -345,8 +345,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.30':
     resolution: {integrity: sha512-GQ7Nw5G2lTu/BtHTKfXhKHok2WGetd4XYcVKGx00SjAk8GMwgJM3zr6zORiPGuOE+/vkc90KtTosSSvaCjKb2Q==}
 
-  '@lucide/vue@1.7.0':
-    resolution: {integrity: sha512-X3gTarOkNh2ThNK7IaDa4gdjFAtZyoKH/eoScklvmtNTWE5uxkycBQOuchGExY5swCqh1WptEIAWrmbuQcy2fA==}
+  '@lucide/vue@1.8.0':
+    resolution: {integrity: sha512-Rgy2rxfOx9yP6fWneE3QO6xwUbF2o7f9+MRbzGLRakee4tzUeVWHdX23uRH4ymwEzoq2+8vqRI9yGsxeZhYlWw==}
     peerDependencies:
       vue: '>=3.0.1'
 
@@ -581,8 +581,8 @@ packages:
   '@tb-dev/utils@7.3.17':
     resolution: {integrity: sha512-FWtlBq9goKSJXVJmupQeWhAYFGVoZ4sQnvOZeQ7hU5+pFpTEjCgUMFKvmgM8wLcEefGja5Ca185XoWQumSZTDQ==}
 
-  '@tb-dev/vue-components@7.1.15':
-    resolution: {integrity: sha512-VdTB1Y+l94zlWP9Yyf5dGv0bFeCvSCPIq2zR2+DrlHAdxH3/YqQ2ejy1R3lC02URS8UMOT/V9PeBt0E2dJ/kFg==}
+  '@tb-dev/vue-components@7.1.16':
+    resolution: {integrity: sha512-rw0GsUC0cKCqT52aHNKSFWBbkV/4L8Aev9JrOJ+2wykt6aL4NmiHBUfwRcP0N0Ta/SKGaZGuTEOAa5UXSdVeHg==}
 
   '@tb-dev/vue-sonner@1.0.0':
     resolution: {integrity: sha512-qDrD8gZAL+xmjjjZGGkI7xQia/GbEYgK61R3OYyZhn3ZhfLupirPHlTY4gUSF2/rgWMhoPo0fszXi+8QHFk5dA==}
@@ -1804,7 +1804,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@lucide/vue@1.7.0(vue@3.5.32(typescript@6.0.2))':
+  '@lucide/vue@1.8.0(vue@3.5.32(typescript@6.0.2))':
     dependencies:
       vue: 3.5.32(typescript@6.0.2)
 
@@ -1973,9 +1973,9 @@ snapshots:
 
   '@tb-dev/utils@7.3.17': {}
 
-  '@tb-dev/vue-components@7.1.15(@vue/compiler-sfc@3.5.32)(typescript@6.0.2)':
+  '@tb-dev/vue-components@7.1.16(@vue/compiler-sfc@3.5.32)(typescript@6.0.2)':
     dependencies:
-      '@lucide/vue': 1.7.0(vue@3.5.32(typescript@6.0.2))
+      '@lucide/vue': 1.8.0(vue@3.5.32(typescript@6.0.2))
       '@tanstack/vue-table': 8.21.3(vue@3.5.32(typescript@6.0.2))
       '@tb-dev/utils': 7.3.17
       '@tb-dev/vue': 4.0.19(typescript@6.0.2)
