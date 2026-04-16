@@ -7,12 +7,12 @@ export default defineConfig({
   },
   overrides: {
     vue: {
-      'vue/component-name-in-template-casing': [
+      'component-name-in-template-casing': [
         'error',
         'PascalCase',
         { registeredComponentsOnly: false },
       ],
-      'vue/enforce-style-attribute': ['error', { allow: ['scoped'] }],
+      'enforce-style-attribute': ['error', { allow: ['scoped'] }],
     },
   },
 });
