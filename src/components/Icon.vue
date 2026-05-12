@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { computed } from 'vue';
-import { icons } from '@/lib/icons';
+import { computed } from "vue";
+import { icons } from "@/lib/icons";
 
 interface Props {
   height?: string;
@@ -10,8 +10,8 @@ interface Props {
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  width: 'auto',
-  height: 'auto',
+  width: "auto",
+  height: "auto",
 });
 
 const icon = computed(() => icons[props.name]);

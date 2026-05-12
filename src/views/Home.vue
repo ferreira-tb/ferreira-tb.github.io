@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import { asyncRef } from '@tb-dev/vue';
-import Icon from '@/components/Icon.vue';
-import { Button } from '@tb-dev/vue-components';
-import ProjectCard from '@/components/ProjectCard.vue';
-import { getRepositories, parseLanguageName } from '@/lib/repository';
+import { asyncRef } from "@tb-dev/vue";
+import Icon from "@/components/Icon.vue";
+import { Button } from "@tb-dev/vue-components";
+import ProjectCard from "@/components/ProjectCard.vue";
+import { getRepositories, parseLanguageName } from "@/lib/repository";
 
 const { state: repos, loading } = asyncRef<Repository[]>([], getRepositories);
 
 function openRepository(repo: Repository) {
-  globalThis.open(repo.url, '_blank');
+  globalThis.open(repo.url, "_blank");
 }
 </script>
 

@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import { ref } from 'vue';
-import Icon from '@/components/Icon.vue';
-import { useHeightDiff } from '@tb-dev/vue';
-import { useColorMode } from '@vueuse/core';
+import { ref } from "vue";
+import Icon from "@/components/Icon.vue";
+import { useHeightDiff } from "@tb-dev/vue";
+import { useColorMode } from "@vueuse/core";
 
 const header = ref<HTMLElement>();
 const contentHeight = useHeightDiff(header);
 
-useColorMode().value = 'dark';
+useColorMode().value = "dark";
 </script>
 
 <template>

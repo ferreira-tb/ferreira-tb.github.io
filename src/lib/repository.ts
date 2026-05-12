@@ -1,7 +1,7 @@
-import { icons } from '@/lib/icons';
+import { icons } from "@/lib/icons";
 
 export async function getRepositories() {
-  const response = await fetch('/data/repos.json');
+  const response = await fetch("/data/repos.json");
   const repositories: Repository[] = await response.json();
 
   for (const repository of repositories) {
@@ -17,6 +17,6 @@ export async function getRepositories() {
 
 export function parseLanguageName(name: string) {
   let lang = name.trim().toLowerCase();
-  if (lang === 'scss') lang = 'sass';
+  if (lang === "scss") lang = "sass";
   return lang;
 }
