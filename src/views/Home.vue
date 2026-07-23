@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script vapor lang="ts">
 import { asyncRef } from "@tb-dev/vue";
 import Icon from "@/components/Icon.vue";
 import { Button } from "@tb-dev/vue-components";
@@ -8,7 +8,7 @@ import { getRepositories, parseLanguageName } from "@/lib/repository";
 const { state: repos, loading } = asyncRef<Repository[]>([], getRepositories);
 
 function openRepository(repo: Repository) {
-  globalThis.open(repo.url, "_blank");
+  open(repo.url, "_blank");
 }
 </script>
 

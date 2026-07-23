@@ -16,5 +16,10 @@ export default defineConfig({
   build: {
     emptyOutDir: true,
     minify: true,
+    rolldownOptions: {
+      experimental: {
+        attachDebugInfo: "none",
+      },
+    },
   },
 });

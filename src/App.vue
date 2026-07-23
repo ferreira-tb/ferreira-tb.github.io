@@ -1,21 +1,13 @@
-<script setup lang="ts">
-import { ref } from "vue";
+<script vapor lang="ts">
 import Icon from "@/components/Icon.vue";
-import { useHeightDiff } from "@tb-dev/vue";
 import { useColorMode } from "@vueuse/core";
-
-const header = ref<HTMLElement>();
-const contentHeight = useHeightDiff(header);
 
 useColorMode().value = "dark";
 </script>
 
 <template>
   <main class="fixed inset-0 overflow-hidden bg-surface">
-    <header
-      ref="header"
-      class="flex h-16 w-full items-center justify-between gap-6 whitespace-nowrap px-4 py-0"
-    >
+    <header class="flex h-16 w-full items-center justify-between gap-6 whitespace-nowrap px-4 py-0">
       <RouterLink :to="{ name: 'home' }" class="flex items-center justify-start">
         <div class="mr-2 flex size-8 items-center overflow-hidden rounded-full">
           <img src="/katsuo.png" alt="logo" decoding="async" class="inline w-full" />
@@ -35,7 +27,7 @@ useColorMode().value = "dark";
       </div>
     </header>
 
-    <div class="relative w-full overflow-hidden" :style="{ height: `${contentHeight}px` }">
+    <div class="relative w-full overflow-hidden">
       <RouterView #default="{ Component }">
         <template v-if="Component">
           <component :is="Component" />
