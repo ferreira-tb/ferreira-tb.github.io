@@ -6,7 +6,12 @@ import { fileURLToPath, URL } from "node:url";
 export default defineConfig({
   plugins: [
     tailwind({ optimize: { minify: true } }),
-    vue({ features: { optionsAPI: false } }),
+    vue({
+      features: {
+        prodDevtools: false,
+        optionsAPI: false,
+      },
+    }),
   ],
   resolve: {
     alias: {
