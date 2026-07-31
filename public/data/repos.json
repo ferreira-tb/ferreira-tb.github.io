@@ -3,35 +3,35 @@
   "languages": [{ "size": 30405, "node": { "name": "Rust" } }],
   "name": "tauri-plugin-prevent-default",
   "primaryLanguage": { "name": "Rust" },
-  "stargazerCount": 229,
-  "updatedAt": "2026-06-24T02:32:21Z",
+  "stargazerCount": 230,
+  "updatedAt": "2026-07-31T08:13:44Z",
   "url": "https://github.com/ferreira-tb/tauri-plugin-prevent-default",
   "extraLanguages": []
 }, {
   "description": "Persistent stores for Tauri",
   "languages": [
-    { "size": 107487, "node": { "name": "TypeScript" } },
+    { "size": 107845, "node": { "name": "TypeScript" } },
     { "size": 243164, "node": { "name": "Rust" } },
     { "size": 6058, "node": { "name": "Kotlin" } },
     { "size": 14962, "node": { "name": "Swift" } }
   ],
   "name": "tauri-store",
   "primaryLanguage": { "name": "Rust" },
-  "stargazerCount": 134,
-  "updatedAt": "2026-06-27T22:31:18Z",
+  "stargazerCount": 137,
+  "updatedAt": "2026-07-31T16:14:51Z",
   "url": "https://github.com/ferreira-tb/tauri-store",
   "extraLanguages": []
 }, {
   "description": "Multiplayer strategy game",
   "languages": [
-    { "size": 851598, "node": { "name": "Rust" } },
-    { "size": 374755, "node": { "name": "Vue" } },
-    { "size": 420701, "node": { "name": "TypeScript" } }
+    { "size": 925435, "node": { "name": "Rust" } },
+    { "size": 396710, "node": { "name": "Vue" } },
+    { "size": 480161, "node": { "name": "TypeScript" } }
   ],
   "name": "nil",
   "primaryLanguage": { "name": "Rust" },
-  "stargazerCount": 1,
-  "updatedAt": "2026-06-30T02:33:33Z",
+  "stargazerCount": 2,
+  "updatedAt": "2026-07-31T04:54:03Z",
   "url": "https://github.com/tsukilabs/nil",
   "extraLanguages": []
 }]
