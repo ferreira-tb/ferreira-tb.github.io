@@ -4,7 +4,7 @@
   "name": "tauri-plugin-prevent-default",
   "primaryLanguage": { "name": "Rust" },
   "stargazerCount": 230,
-  "updatedAt": "2026-07-31T08:13:44Z",
+  "updatedAt": "2026-08-28T13:36:25Z",
   "url": "https://github.com/ferreira-tb/tauri-plugin-prevent-default",
   "extraLanguages": []
 }, {
@@ -17,21 +17,21 @@
   ],
   "name": "tauri-store",
   "primaryLanguage": { "name": "Rust" },
-  "stargazerCount": 137,
-  "updatedAt": "2026-07-31T16:14:51Z",
+  "stargazerCount": 138,
+  "updatedAt": "2026-08-19T14:02:00Z",
   "url": "https://github.com/ferreira-tb/tauri-store",
   "extraLanguages": []
 }, {
   "description": "Multiplayer strategy game",
   "languages": [
-    { "size": 925435, "node": { "name": "Rust" } },
-    { "size": 396710, "node": { "name": "Vue" } },
-    { "size": 480161, "node": { "name": "TypeScript" } }
+    { "size": 1041945, "node": { "name": "Rust" } },
+    { "size": 417143, "node": { "name": "Vue" } },
+    { "size": 548947, "node": { "name": "TypeScript" } }
   ],
   "name": "nil",
   "primaryLanguage": { "name": "Rust" },
   "stargazerCount": 2,
-  "updatedAt": "2026-07-31T04:54:03Z",
+  "updatedAt": "2026-09-05T11:59:14Z",
   "url": "https://github.com/tsukilabs/nil",
   "extraLanguages": []
 }]

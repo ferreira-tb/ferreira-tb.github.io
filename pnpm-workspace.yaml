@@ -6,12 +6,10 @@ minimumReleaseAgeStrict: true
 minimumReleaseAgeExclude:
   - "@tb-dev/*"
   - "@tsukilabs/*"
-  - "@vue/language-core@3.3.9"
-  - vue-tsc@3.3.9
 
 allowBuilds:
   vue-demi: false
 
 overrides:
+  vue: "=3.6.0-rc.7"
   brace-expansion@<=5.0.7: ^5.0.8
-  vue: "=3.6.0-rc.2"
